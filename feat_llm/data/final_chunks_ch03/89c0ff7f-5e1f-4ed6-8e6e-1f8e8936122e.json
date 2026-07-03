@@ -1,0 +1,42 @@
+{
+  "chunk": "### Taping Procedure: Full Knee Taping\n\n| Step | Application Path | Position | Stretch % |\n|------|------------------|----------|-----------|\n| 1 | Apply a small “I” strip across the patellar tendon | Long sitting, knee at 90° flexion | 50–75% |\n| 2 | Apply an “I” strip from the lateral aspect of the thigh toward the patella, then 50% stretch from lateral side of patella to anterior knee, finish by crossing tibial tuberosity with no stretch at the end | Long sitting, knee at 90° flexion | 25% (thigh to patella), 50% (lateral patella to anterior knee), 0% (end) |\n| 3 | Apply an “I” strip from the medial aspect of the thigh toward the patella, then 50% stretch from medial side of patella to front of knee, crossing tibial tuberosity with no stretch at the end | Long sitting, knee at 90° flexion | 25% (thigh to patella), 50% (medial patella to front of knee), 0% (end) |\n| 4 | Heat activate the glue | — | — |\n\n> **Figure 3.5**: Small “I” strip applied across the patellar tendon.\n\n> **Figure 3.6**: An “I” strip is applied from the lateral aspect of the thigh to the tibial tuberosity.\n\n> **Figure 3.7**: An “I” strip is applied from the medial aspect of the thigh to the tibial tuberosity.\n\nKnee pain (patellofemoral syndrome/Osgood-Schlatter’s disease)\n\n---",
+  "tape_type": "I-strip",
+  "condition": "Full Knee",
+  "technique_code": "KT_KNEE_FULL",
+  "metadata": "{\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/Full Knee Taping: PFPS / Patellar Tendinopathy / Osgood-Schlatter\\u2019s Disease / Bursitis/\", \"condition\": \"\", \"tape_type\": \"Small-I-strip, I-strip\", \"min_stretch\": \"0\", \"max_stretch\": \"75\", \"region\": \"lateral\", \"technique_code\": \"KT_KNEE\", \"_node_content\": \"{\\\"id_\\\": \\\"89c0ff7f-5e1f-4ed6-8e6e-1f8e8936122e\\\", \\\"embedding\\\": null, \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/Full Knee Taping: PFPS / Patellar Tendinopathy / Osgood-Schlatter\\u2019s Disease / Bursitis/\\\", \\\"condition\\\": \\\"\\\", \\\"tape_type\\\": \\\"Small-I-strip, I-strip\\\", \\\"min_stretch\\\": \\\"0\\\", \\\"max_stretch\\\": \\\"75\\\", \\\"region\\\": \\\"lateral\\\", \\\"technique_code\\\": \\\"KT_KNEE\\\"}, \\\"excluded_embed_metadata_keys\\\": [], \\\"excluded_llm_metadata_keys\\\": [], \\\"relationships\\\": {\\\"1\\\": {\\\"node_id\\\": \\\"book1_gibbons_ch03\\\", \\\"node_type\\\": \\\"4\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\"}, \\\"hash\\\": \\\"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}, \\\"2\\\": {\\\"node_id\\\": \\\"bcf629ac-94fd-4359-b9ee-271b2abb0889\\\", \\\"node_type\\\": \\\"1\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/\\\"}, \\\"hash\\\": \\\"5dd6d0a4722b062857a5367c8a605a9d297daf6ee8c3b148c4dcda5c92b856e9\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}, \\\"3\\\": {\\\"node_id\\\": \\\"50ca1d30-dbc1-4b80-814b-11b4fbb34ccd\\\", \\\"node_type\\\": \\\"1\\\", \\\"metadata\\\": {\\\"header_path\\\": \\\"/\\\"}, \\\"hash\\\": \\\"9694a7e24c0efc9ed7d2843eb3f80ab32d3d8306868379e750b6a37921faec72\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}}, \\\"metadata_template\\\": \\\"{key}: {value}\\\", \\\"metadata_separator\\\": \\\"\\\\n\\\", \\\"text\\\": \\\"\\\", \\\"mimetype\\\": \\\"text/plain\\\", \\\"start_char_idx\\\": 4168, \\\"end_char_idx\\\": 5436, \\\"text_template\\\": \\\"{metadata_str}\\\\n\\\\n{content}\\\", \\\"class_name\\\": \\\"TextNode\\\"}\", \"_node_type\": \"TextNode\", \"document_id\": \"book1_gibbons_ch03\", \"doc_id\": \"book1_gibbons_ch03\", \"ref_doc_id\": \"book1_gibbons_ch03\"}",
+  "region": "lateral",
+  "max_stretch": "75",
+  "min_stretch": "0",
+  "pain_area": [
+    "inferior",
+    "anterior"
+  ],
+  "parent_id": "book1_gibbons_ch03",
+  "chunk_id": "89c0ff7f-5e1f-4ed6-8e6e-1f8e8936122e",
+  "source": "book1_gibbons",
+  "body_part": "knee",
+  "body_region": "anterior",
+  "@search.score": 1.0,
+  "@search.reranker_score": null,
+  "@search.highlights": null,
+  "@search.captions": null,
+  "chapter": "ch03",
+  "header_path": "/Full Knee Taping: PFPS / Patellar Tendinopathy / Osgood-Schlatter’s Disease / Bursitis/",
+  "_metadata_full": {
+    "source": "book1_gibbons",
+    "body_part": "knee",
+    "chapter": "ch03",
+    "header_path": "/Full Knee Taping: PFPS / Patellar Tendinopathy / Osgood-Schlatter’s Disease / Bursitis/",
+    "condition": "",
+    "tape_type": "Small-I-strip, I-strip",
+    "min_stretch": "0",
+    "max_stretch": "75",
+    "region": "lateral",
+    "technique_code": "KT_KNEE",
+    "_node_content": "{\"id_\": \"89c0ff7f-5e1f-4ed6-8e6e-1f8e8936122e\", \"embedding\": null, \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/Full Knee Taping: PFPS / Patellar Tendinopathy / Osgood-Schlatter’s Disease / Bursitis/\", \"condition\": \"\", \"tape_type\": \"Small-I-strip, I-strip\", \"min_stretch\": \"0\", \"max_stretch\": \"75\", \"region\": \"lateral\", \"technique_code\": \"KT_KNEE\"}, \"excluded_embed_metadata_keys\": [], \"excluded_llm_metadata_keys\": [], \"relationships\": {\"1\": {\"node_id\": \"book1_gibbons_ch03\", \"node_type\": \"4\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\"}, \"hash\": \"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\", \"class_name\": \"RelatedNodeInfo\"}, \"2\": {\"node_id\": \"bcf629ac-94fd-4359-b9ee-271b2abb0889\", \"node_type\": \"1\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/\"}, \"hash\": \"5dd6d0a4722b062857a5367c8a605a9d297daf6ee8c3b148c4dcda5c92b856e9\", \"class_name\": \"RelatedNodeInfo\"}, \"3\": {\"node_id\": \"50ca1d30-dbc1-4b80-814b-11b4fbb34ccd\", \"node_type\": \"1\", \"metadata\": {\"header_path\": \"/\"}, \"hash\": \"9694a7e24c0efc9ed7d2843eb3f80ab32d3d8306868379e750b6a37921faec72\", \"class_name\": \"RelatedNodeInfo\"}}, \"metadata_template\": \"{key}: {value}\", \"metadata_separator\": \"\\n\", \"text\": \"\", \"mimetype\": \"text/plain\", \"start_char_idx\": 4168, \"end_char_idx\": 5436, \"text_template\": \"{metadata_str}\\n\\n{content}\", \"class_name\": \"TextNode\"}",
+    "_node_type": "TextNode",
+    "document_id": "book1_gibbons_ch03",
+    "doc_id": "book1_gibbons_ch03",
+    "ref_doc_id": "book1_gibbons_ch03"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "chunk": "### Taping Procedure: Patellofemoral Pain Syndrome\n\n| Step | Application Path | Position | Stretch % |\n|------|------------------|----------|-----------|\n| 1 | Attach a “Y” strip from the superior aspect of the patella and apply the tape to the medial and lateral sides of the patella, finishing by crossing over the tibial tuberosity | Long sitting, knee at 90° flexion | 0% |\n| 2 | Apply a “Y” strip from the tibial tuberosity, lay the tape medially and laterally around the patella to overlap the first “Y” application, finishing near the quadriceps tendon | Long sitting, knee at 90° flexion | Little to no stretch |\n| 3 | Heat activate the glue | — | — |\n| 4 | Lower the limb back down to the couch and observe the “wrinkling” of the tape | — | — |\n\n> **Figure 3.2**: First application of the “Y” strip starting from the superior aspect of the patella and finishing at the tibial tuberosity.\n\n> **Figure 3.3**: Second application of the “Y” strip starting from the tibial tuberosity and finishing at the starting point of the first application.\n\nKnee pain (patellofemoral pain syndrome)\n\nChen et al. (2008) conducted a study of the “Biomechanics effects of Kinesio Taping for persons with patellofemoral pain syndrome during stair climbing.” They concluded that this type of kinesiology taping could reduce pain and improve the ratio of VMO/vastus lateralis (VL) for the mechanism of patellar stability during stair climbing.\n\nIn general, PFPS is possibly one of the most common conditions that I have treated with some form of strapping and taping. This includes conventional athletic taping methods using zinc oxide (Z/O), as with the McConnell technique to control patellar alignment, as well as kinesiology taping. I like and use all the varieties of taping techniques as each of them has a unique effect upon the knee. However, my choice at the present time for helping to reduce athletes’ and patients’ persistent knee pains is the kinesiology taping method.\n\n---",
+  "tape_type": "Y-strip",
+  "condition": "General",
+  "technique_code": "KT_KNEE_GENERAL",
+  "metadata": "{\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/General Knee Pain / Patellofemoral Pain Syndrome/\", \"condition\": \"\", \"tape_type\": \"Y-strip\", \"min_stretch\": \"0\", \"max_stretch\": \"0\", \"region\": \"lateral\", \"technique_code\": \"KT_KNEE\", \"_node_content\": \"{\\\"id_\\\": \\\"b062fc2e-f9b1-414e-b928-cffd8a708565\\\", \\\"embedding\\\": null, \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/General Knee Pain / Patellofemoral Pain Syndrome/\\\", \\\"condition\\\": \\\"\\\", \\\"tape_type\\\": \\\"Y-strip\\\", \\\"min_stretch\\\": \\\"0\\\", \\\"max_stretch\\\": \\\"0\\\", \\\"region\\\": \\\"lateral\\\", \\\"technique_code\\\": \\\"KT_KNEE\\\"}, \\\"excluded_embed_metadata_keys\\\": [], \\\"excluded_llm_metadata_keys\\\": [], \\\"relationships\\\": {\\\"1\\\": {\\\"node_id\\\": \\\"book1_gibbons_ch03\\\", \\\"node_type\\\": \\\"4\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\"}, \\\"hash\\\": \\\"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}, \\\"2\\\": {\\\"node_id\\\": \\\"2fcaeeb7-5949-4ce5-acf5-5b628907ec58\\\", \\\"node_type\\\": \\\"1\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/\\\"}, \\\"hash\\\": \\\"d29697652e423de1b52bb2383b4248d6fa5c4f707640010c8bc46fec5c4986b7\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}, \\\"3\\\": {\\\"node_id\\\": \\\"bcf629ac-94fd-4359-b9ee-271b2abb0889\\\", \\\"node_type\\\": \\\"1\\\", \\\"metadata\\\": {\\\"header_path\\\": \\\"/\\\"}, \\\"hash\\\": \\\"ff811fc790a97ec1e8fb7fda7a05289574d6e4e3217e0045f02e77cddc2f9f3c\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}}, \\\"metadata_template\\\": \\\"{key}: {value}\\\", \\\"metadata_separator\\\": \\\"\\\\n\\\", \\\"text\\\": \\\"\\\", \\\"mimetype\\\": \\\"text/plain\\\", \\\"start_char_idx\\\": 848, \\\"end_char_idx\\\": 2822, \\\"text_template\\\": \\\"{metadata_str}\\\\n\\\\n{content}\\\", \\\"class_name\\\": \\\"TextNode\\\"}\", \"_node_type\": \"TextNode\", \"document_id\": \"book1_gibbons_ch03\", \"doc_id\": \"book1_gibbons_ch03\", \"ref_doc_id\": \"book1_gibbons_ch03\"}",
+  "region": "lateral",
+  "max_stretch": "0",
+  "min_stretch": "0",
+  "pain_area": [
+    "anterior",
+    "kneecap"
+  ],
+  "parent_id": "book1_gibbons_ch03",
+  "chunk_id": "b062fc2e-f9b1-414e-b928-cffd8a708565",
+  "source": "book1_gibbons",
+  "body_part": "knee",
+  "body_region": "anterior",
+  "@search.score": 1.0,
+  "@search.reranker_score": null,
+  "@search.highlights": null,
+  "@search.captions": null,
+  "chapter": "ch03",
+  "header_path": "/General Knee Pain / Patellofemoral Pain Syndrome/",
+  "_metadata_full": {
+    "source": "book1_gibbons",
+    "body_part": "knee",
+    "chapter": "ch03",
+    "header_path": "/General Knee Pain / Patellofemoral Pain Syndrome/",
+    "condition": "",
+    "tape_type": "Y-strip",
+    "min_stretch": "0",
+    "max_stretch": "0",
+    "region": "lateral",
+    "technique_code": "KT_KNEE",
+    "_node_content": "{\"id_\": \"b062fc2e-f9b1-414e-b928-cffd8a708565\", \"embedding\": null, \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/General Knee Pain / Patellofemoral Pain Syndrome/\", \"condition\": \"\", \"tape_type\": \"Y-strip\", \"min_stretch\": \"0\", \"max_stretch\": \"0\", \"region\": \"lateral\", \"technique_code\": \"KT_KNEE\"}, \"excluded_embed_metadata_keys\": [], \"excluded_llm_metadata_keys\": [], \"relationships\": {\"1\": {\"node_id\": \"book1_gibbons_ch03\", \"node_type\": \"4\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\"}, \"hash\": \"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\", \"class_name\": \"RelatedNodeInfo\"}, \"2\": {\"node_id\": \"2fcaeeb7-5949-4ce5-acf5-5b628907ec58\", \"node_type\": \"1\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/\"}, \"hash\": \"d29697652e423de1b52bb2383b4248d6fa5c4f707640010c8bc46fec5c4986b7\", \"class_name\": \"RelatedNodeInfo\"}, \"3\": {\"node_id\": \"bcf629ac-94fd-4359-b9ee-271b2abb0889\", \"node_type\": \"1\", \"metadata\": {\"header_path\": \"/\"}, \"hash\": \"ff811fc790a97ec1e8fb7fda7a05289574d6e4e3217e0045f02e77cddc2f9f3c\", \"class_name\": \"RelatedNodeInfo\"}}, \"metadata_template\": \"{key}: {value}\", \"metadata_separator\": \"\\n\", \"text\": \"\", \"mimetype\": \"text/plain\", \"start_char_idx\": 848, \"end_char_idx\": 2822, \"text_template\": \"{metadata_str}\\n\\n{content}\", \"class_name\": \"TextNode\"}",
+    "_node_type": "TextNode",
+    "document_id": "book1_gibbons_ch03",
+    "doc_id": "book1_gibbons_ch03",
+    "ref_doc_id": "book1_gibbons_ch03"
+  }
+}

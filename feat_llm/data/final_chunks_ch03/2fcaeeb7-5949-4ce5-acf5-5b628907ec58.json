@@ -1,0 +1,42 @@
+{
+  "chunk": "## General Knee Pain / Patellofemoral Pain Syndrome\n\nPatellofemoral pain syndrome (PFPS) is a painful condition that can relate to a type of mal-tracking of the kneecap (patella) (see Fig. 3.1). There are many causes for this condition, such as an over-pronation of the subtalar joint (STJ) of the ankle and poor foot biomechanics. Weakness of the inner quadriceps muscle (called the vastus medialis) can also contribute to PFPS, especially the vastus medialis oblique (VMO) fibers, which are thought to atrophy due to pain and minimal swelling. In addition, weak gluteus medius (Gmed) and gluteus maximus (Gmax) can cause this type of knee pain. The knee joint is therefore what I refer to as “a weak link in the kinetic chain,” and typically the presentation of the pain is not where the problem lies.\n\n> **Figure 3.1**: General knee pain/PFPS.",
+  "tape_type": "unknown",
+  "condition": "General",
+  "technique_code": "KT_KNEE_GENERAL",
+  "metadata": "{\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/\", \"condition\": \"\", \"tape_type\": \"unknown\", \"min_stretch\": \"0\", \"max_stretch\": \"0\", \"region\": \"medial\", \"technique_code\": \"KT_KNEE\", \"_node_content\": \"{\\\"id_\\\": \\\"2fcaeeb7-5949-4ce5-acf5-5b628907ec58\\\", \\\"embedding\\\": null, \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/\\\", \\\"condition\\\": \\\"\\\", \\\"tape_type\\\": \\\"unknown\\\", \\\"min_stretch\\\": \\\"0\\\", \\\"max_stretch\\\": \\\"0\\\", \\\"region\\\": \\\"medial\\\", \\\"technique_code\\\": \\\"KT_KNEE\\\"}, \\\"excluded_embed_metadata_keys\\\": [], \\\"excluded_llm_metadata_keys\\\": [], \\\"relationships\\\": {\\\"1\\\": {\\\"node_id\\\": \\\"book1_gibbons_ch03\\\", \\\"node_type\\\": \\\"4\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\"}, \\\"hash\\\": \\\"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}, \\\"3\\\": {\\\"node_id\\\": \\\"b062fc2e-f9b1-414e-b928-cffd8a708565\\\", \\\"node_type\\\": \\\"1\\\", \\\"metadata\\\": {\\\"header_path\\\": \\\"/General Knee Pain / Patellofemoral Pain Syndrome/\\\"}, \\\"hash\\\": \\\"ff5cba63eca1cf830d151650dc0372a1a7d373df50a99d0dcb612aeefbae9f96\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}}, \\\"metadata_template\\\": \\\"{key}: {value}\\\", \\\"metadata_separator\\\": \\\"\\\\n\\\", \\\"text\\\": \\\"\\\", \\\"mimetype\\\": \\\"text/plain\\\", \\\"start_char_idx\\\": 0, \\\"end_char_idx\\\": 846, \\\"text_template\\\": \\\"{metadata_str}\\\\n\\\\n{content}\\\", \\\"class_name\\\": \\\"TextNode\\\"}\", \"_node_type\": \"TextNode\", \"document_id\": \"book1_gibbons_ch03\", \"doc_id\": \"book1_gibbons_ch03\", \"ref_doc_id\": \"book1_gibbons_ch03\"}",
+  "region": "medial",
+  "max_stretch": "0",
+  "min_stretch": "0",
+  "pain_area": [
+    "anterior",
+    "kneecap"
+  ],
+  "parent_id": "book1_gibbons_ch03",
+  "chunk_id": "2fcaeeb7-5949-4ce5-acf5-5b628907ec58",
+  "source": "book1_gibbons",
+  "body_part": "knee",
+  "body_region": "anterior",
+  "@search.score": 1.0,
+  "@search.reranker_score": null,
+  "@search.highlights": null,
+  "@search.captions": null,
+  "chapter": "ch03",
+  "header_path": "/",
+  "_metadata_full": {
+    "source": "book1_gibbons",
+    "body_part": "knee",
+    "chapter": "ch03",
+    "header_path": "/",
+    "condition": "",
+    "tape_type": "unknown",
+    "min_stretch": "0",
+    "max_stretch": "0",
+    "region": "medial",
+    "technique_code": "KT_KNEE",
+    "_node_content": "{\"id_\": \"2fcaeeb7-5949-4ce5-acf5-5b628907ec58\", \"embedding\": null, \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/\", \"condition\": \"\", \"tape_type\": \"unknown\", \"min_stretch\": \"0\", \"max_stretch\": \"0\", \"region\": \"medial\", \"technique_code\": \"KT_KNEE\"}, \"excluded_embed_metadata_keys\": [], \"excluded_llm_metadata_keys\": [], \"relationships\": {\"1\": {\"node_id\": \"book1_gibbons_ch03\", \"node_type\": \"4\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\"}, \"hash\": \"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\", \"class_name\": \"RelatedNodeInfo\"}, \"3\": {\"node_id\": \"b062fc2e-f9b1-414e-b928-cffd8a708565\", \"node_type\": \"1\", \"metadata\": {\"header_path\": \"/General Knee Pain / Patellofemoral Pain Syndrome/\"}, \"hash\": \"ff5cba63eca1cf830d151650dc0372a1a7d373df50a99d0dcb612aeefbae9f96\", \"class_name\": \"RelatedNodeInfo\"}}, \"metadata_template\": \"{key}: {value}\", \"metadata_separator\": \"\\n\", \"text\": \"\", \"mimetype\": \"text/plain\", \"start_char_idx\": 0, \"end_char_idx\": 846, \"text_template\": \"{metadata_str}\\n\\n{content}\", \"class_name\": \"TextNode\"}",
+    "_node_type": "TextNode",
+    "document_id": "book1_gibbons_ch03",
+    "doc_id": "book1_gibbons_ch03",
+    "ref_doc_id": "book1_gibbons_ch03"
+  }
+}

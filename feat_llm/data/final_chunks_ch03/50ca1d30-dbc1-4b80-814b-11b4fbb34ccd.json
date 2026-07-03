@@ -1,0 +1,41 @@
+{
+  "chunk": "## Knee Malalignment Taping Technique\n\nThe two techniques demonstrated below are potentially very simple in one respect because only one piece of tape is required. I do find in practice that sometimes the simple approach can work very well. Just remember that the majority of knee pain is merely a symptom, and the causative factor for the patient’s pain might be in another structure, such as the hip joint, or possibly over-pronation of the foot.\n\nThe application of a single piece of tape can be done on its own with a 2-inch small “I” strip. The technique can also be applied in combination with the full knee taping, as described below. Another option is to use the 4-inch (Big Daddy) piece of tape, as shown in Figure 3.9, in the alternative technique below.",
+  "tape_type": "Big-Daddy, I-strip",
+  "condition": "Malalignment",
+  "technique_code": "KT_KNEE_MALALIGNMENT",
+  "metadata": "{\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/\", \"condition\": \"\", \"tape_type\": \"Big-Daddy, Small-I-strip, I-strip\", \"min_stretch\": \"0\", \"max_stretch\": \"0\", \"region\": \"medial\", \"technique_code\": \"KT_KNEE\", \"_node_content\": \"{\\\"id_\\\": \\\"50ca1d30-dbc1-4b80-814b-11b4fbb34ccd\\\", \\\"embedding\\\": null, \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/\\\", \\\"condition\\\": \\\"\\\", \\\"tape_type\\\": \\\"Big-Daddy, Small-I-strip, I-strip\\\", \\\"min_stretch\\\": \\\"0\\\", \\\"max_stretch\\\": \\\"0\\\", \\\"region\\\": \\\"medial\\\", \\\"technique_code\\\": \\\"KT_KNEE\\\"}, \\\"excluded_embed_metadata_keys\\\": [], \\\"excluded_llm_metadata_keys\\\": [], \\\"relationships\\\": {\\\"1\\\": {\\\"node_id\\\": \\\"book1_gibbons_ch03\\\", \\\"node_type\\\": \\\"4\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\"}, \\\"hash\\\": \\\"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}, \\\"2\\\": {\\\"node_id\\\": \\\"89c0ff7f-5e1f-4ed6-8e6e-1f8e8936122e\\\", \\\"node_type\\\": \\\"1\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/Full Knee Taping: PFPS / Patellar Tendinopathy / Osgood-Schlatter\\u2019s Disease / Bursitis/\\\"}, \\\"hash\\\": \\\"7a5f567794907bebeca2b7a3340a6ee8ae5058b17bf4d43ad88941d1f12fff4a\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}, \\\"3\\\": {\\\"node_id\\\": \\\"09dbf695-69ff-447d-85dd-ed5c030861c4\\\", \\\"node_type\\\": \\\"1\\\", \\\"metadata\\\": {\\\"header_path\\\": \\\"/Knee Malalignment Taping Technique/\\\"}, \\\"hash\\\": \\\"e788e2da10a7f452d748e15603c595416b18018cf39ef8ebe3a291174c06cf56\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}}, \\\"metadata_template\\\": \\\"{key}: {value}\\\", \\\"metadata_separator\\\": \\\"\\\\n\\\", \\\"text\\\": \\\"\\\", \\\"mimetype\\\": \\\"text/plain\\\", \\\"start_char_idx\\\": 5438, \\\"end_char_idx\\\": 6202, \\\"text_template\\\": \\\"{metadata_str}\\\\n\\\\n{content}\\\", \\\"class_name\\\": \\\"TextNode\\\"}\", \"_node_type\": \"TextNode\", \"document_id\": \"book1_gibbons_ch03\", \"doc_id\": \"book1_gibbons_ch03\", \"ref_doc_id\": \"book1_gibbons_ch03\"}",
+  "region": "medial",
+  "max_stretch": "0",
+  "min_stretch": "0",
+  "pain_area": [
+    "anterior"
+  ],
+  "parent_id": "book1_gibbons_ch03",
+  "chunk_id": "50ca1d30-dbc1-4b80-814b-11b4fbb34ccd",
+  "source": "book1_gibbons",
+  "body_part": "knee",
+  "body_region": "anterior",
+  "@search.score": 1.0,
+  "@search.reranker_score": null,
+  "@search.highlights": null,
+  "@search.captions": null,
+  "chapter": "ch03",
+  "header_path": "/",
+  "_metadata_full": {
+    "source": "book1_gibbons",
+    "body_part": "knee",
+    "chapter": "ch03",
+    "header_path": "/",
+    "condition": "",
+    "tape_type": "Big-Daddy, Small-I-strip, I-strip",
+    "min_stretch": "0",
+    "max_stretch": "0",
+    "region": "medial",
+    "technique_code": "KT_KNEE",
+    "_node_content": "{\"id_\": \"50ca1d30-dbc1-4b80-814b-11b4fbb34ccd\", \"embedding\": null, \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/\", \"condition\": \"\", \"tape_type\": \"Big-Daddy, Small-I-strip, I-strip\", \"min_stretch\": \"0\", \"max_stretch\": \"0\", \"region\": \"medial\", \"technique_code\": \"KT_KNEE\"}, \"excluded_embed_metadata_keys\": [], \"excluded_llm_metadata_keys\": [], \"relationships\": {\"1\": {\"node_id\": \"book1_gibbons_ch03\", \"node_type\": \"4\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\"}, \"hash\": \"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\", \"class_name\": \"RelatedNodeInfo\"}, \"2\": {\"node_id\": \"89c0ff7f-5e1f-4ed6-8e6e-1f8e8936122e\", \"node_type\": \"1\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/Full Knee Taping: PFPS / Patellar Tendinopathy / Osgood-Schlatter’s Disease / Bursitis/\"}, \"hash\": \"7a5f567794907bebeca2b7a3340a6ee8ae5058b17bf4d43ad88941d1f12fff4a\", \"class_name\": \"RelatedNodeInfo\"}, \"3\": {\"node_id\": \"09dbf695-69ff-447d-85dd-ed5c030861c4\", \"node_type\": \"1\", \"metadata\": {\"header_path\": \"/Knee Malalignment Taping Technique/\"}, \"hash\": \"e788e2da10a7f452d748e15603c595416b18018cf39ef8ebe3a291174c06cf56\", \"class_name\": \"RelatedNodeInfo\"}}, \"metadata_template\": \"{key}: {value}\", \"metadata_separator\": \"\\n\", \"text\": \"\", \"mimetype\": \"text/plain\", \"start_char_idx\": 5438, \"end_char_idx\": 6202, \"text_template\": \"{metadata_str}\\n\\n{content}\", \"class_name\": \"TextNode\"}",
+    "_node_type": "TextNode",
+    "document_id": "book1_gibbons_ch03",
+    "doc_id": "book1_gibbons_ch03",
+    "ref_doc_id": "book1_gibbons_ch03"
+  }
+}

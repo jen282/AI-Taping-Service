@@ -1,0 +1,42 @@
+{
+  "chunk": "## Lateral Knee Pain: Iliotibial Band Friction Syndrome / Lateral Meniscus / Lateral Collateral Ligament (LCL)\n\nI personally believe that everyone who enjoys running, whether competitively or recreationally, will, at some stage in their life, experience one of these conditions to the lateral side of their knee to varying degrees. There are many reasons why an athlete or patient presents with lateral knee pain and the most common reason is iliotibial band friction syndrome (ITBFS). The reason why the patient is experiencing lateral knee pain could simply be from wearing incorrect footwear, especially among those who are new to running.\n\nIt is not within the scope of this book to discuss all causes of lateral knee pain (Fig. 3.14); however, the following kinesiology taping technique will help reduce the patient’s presenting pain. Through this fantastic technique, it is possible to provide enough pain relief to enable the patient/athlete to continue participating in the sport they love, as well as taking part in a physical therapy assessment (to identify the underlying cause(s)) and subsequent treatment.\n\n> **Figure 3.14**: ITBFS/lateral meniscus and the LCL. Iliotibial band friction syndrome. Gerdy’s tubercle. Lateral collateral ligament (LCL). Lateral meniscus.",
+  "tape_type": "unknown",
+  "condition": "Lateral",
+  "technique_code": "KT_KNEE_LATERAL",
+  "metadata": "{\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/\", \"condition\": \"\", \"tape_type\": \"unknown\", \"min_stretch\": \"0\", \"max_stretch\": \"0\", \"region\": \"lateral\", \"technique_code\": \"KT_KNEE\", \"_node_content\": \"{\\\"id_\\\": \\\"f0337a32-5ef1-41b1-ac41-4aa7b24f26b4\\\", \\\"embedding\\\": null, \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/\\\", \\\"condition\\\": \\\"\\\", \\\"tape_type\\\": \\\"unknown\\\", \\\"min_stretch\\\": \\\"0\\\", \\\"max_stretch\\\": \\\"0\\\", \\\"region\\\": \\\"lateral\\\", \\\"technique_code\\\": \\\"KT_KNEE\\\"}, \\\"excluded_embed_metadata_keys\\\": [], \\\"excluded_llm_metadata_keys\\\": [], \\\"relationships\\\": {\\\"1\\\": {\\\"node_id\\\": \\\"book1_gibbons_ch03\\\", \\\"node_type\\\": \\\"4\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\"}, \\\"hash\\\": \\\"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}, \\\"2\\\": {\\\"node_id\\\": \\\"2e36a9d0-ce3d-4b14-9554-2f9a08f11669\\\", \\\"node_type\\\": \\\"1\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/Knee Malalignment Taping Technique/\\\"}, \\\"hash\\\": \\\"63149bc5ed7398be1ea614c8c67e318d500fc32cd5371f34b0e556ab62c17b60\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}, \\\"3\\\": {\\\"node_id\\\": \\\"fc32754d-8488-405e-a20d-b9669c4a6805\\\", \\\"node_type\\\": \\\"1\\\", \\\"metadata\\\": {\\\"header_path\\\": \\\"/Lateral Knee Pain: Iliotibial Band Friction Syndrome / Lateral Meniscus / Lateral Collateral Ligament (LCL)/\\\"}, \\\"hash\\\": \\\"f3c613464b687c41242e7f512c5402bce7d9bd1bb8836697c27ff9414c668a28\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}}, \\\"metadata_template\\\": \\\"{key}: {value}\\\", \\\"metadata_separator\\\": \\\"\\\\n\\\", \\\"text\\\": \\\"\\\", \\\"mimetype\\\": \\\"text/plain\\\", \\\"start_char_idx\\\": 8197, \\\"end_char_idx\\\": 9477, \\\"text_template\\\": \\\"{metadata_str}\\\\n\\\\n{content}\\\", \\\"class_name\\\": \\\"TextNode\\\"}\", \"_node_type\": \"TextNode\", \"document_id\": \"book1_gibbons_ch03\", \"doc_id\": \"book1_gibbons_ch03\", \"ref_doc_id\": \"book1_gibbons_ch03\"}",
+  "region": "lateral",
+  "max_stretch": "0",
+  "min_stretch": "0",
+  "pain_area": [
+    "lateral",
+    "anterior"
+  ],
+  "parent_id": "book1_gibbons_ch03",
+  "chunk_id": "f0337a32-5ef1-41b1-ac41-4aa7b24f26b4",
+  "source": "book1_gibbons",
+  "body_part": "knee",
+  "body_region": "lateral",
+  "@search.score": 1.0,
+  "@search.reranker_score": null,
+  "@search.highlights": null,
+  "@search.captions": null,
+  "chapter": "ch03",
+  "header_path": "/",
+  "_metadata_full": {
+    "source": "book1_gibbons",
+    "body_part": "knee",
+    "chapter": "ch03",
+    "header_path": "/",
+    "condition": "",
+    "tape_type": "unknown",
+    "min_stretch": "0",
+    "max_stretch": "0",
+    "region": "lateral",
+    "technique_code": "KT_KNEE",
+    "_node_content": "{\"id_\": \"f0337a32-5ef1-41b1-ac41-4aa7b24f26b4\", \"embedding\": null, \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/\", \"condition\": \"\", \"tape_type\": \"unknown\", \"min_stretch\": \"0\", \"max_stretch\": \"0\", \"region\": \"lateral\", \"technique_code\": \"KT_KNEE\"}, \"excluded_embed_metadata_keys\": [], \"excluded_llm_metadata_keys\": [], \"relationships\": {\"1\": {\"node_id\": \"book1_gibbons_ch03\", \"node_type\": \"4\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\"}, \"hash\": \"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\", \"class_name\": \"RelatedNodeInfo\"}, \"2\": {\"node_id\": \"2e36a9d0-ce3d-4b14-9554-2f9a08f11669\", \"node_type\": \"1\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/Knee Malalignment Taping Technique/\"}, \"hash\": \"63149bc5ed7398be1ea614c8c67e318d500fc32cd5371f34b0e556ab62c17b60\", \"class_name\": \"RelatedNodeInfo\"}, \"3\": {\"node_id\": \"fc32754d-8488-405e-a20d-b9669c4a6805\", \"node_type\": \"1\", \"metadata\": {\"header_path\": \"/Lateral Knee Pain: Iliotibial Band Friction Syndrome / Lateral Meniscus / Lateral Collateral Ligament (LCL)/\"}, \"hash\": \"f3c613464b687c41242e7f512c5402bce7d9bd1bb8836697c27ff9414c668a28\", \"class_name\": \"RelatedNodeInfo\"}}, \"metadata_template\": \"{key}: {value}\", \"metadata_separator\": \"\\n\", \"text\": \"\", \"mimetype\": \"text/plain\", \"start_char_idx\": 8197, \"end_char_idx\": 9477, \"text_template\": \"{metadata_str}\\n\\n{content}\", \"class_name\": \"TextNode\"}",
+    "_node_type": "TextNode",
+    "document_id": "book1_gibbons_ch03",
+    "doc_id": "book1_gibbons_ch03",
+    "ref_doc_id": "book1_gibbons_ch03"
+  }
+}

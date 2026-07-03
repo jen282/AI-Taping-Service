@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-04-20_12-40",
+  "scores": {
+    "faithfulness": 0.4258658008658009,
+    "answer_relevancy": 0.16263968709430282,
+    "context_precision": 0.6666666666544444,
+    "context_recall": 0.4166666666666667
+  },
+  "details": [
+    {
+      "question": "정강이뼈 융기(무릎 아래 튀어나온 부분)가 뭐야?",
+      "answer": "{\"id\": \"KT_LIMBS_001\", \"source\": \"book1_gibbons\", \"body_part\": \"limbs\", \"technique_code\": \"KT_LIMBS_001\", \"region\": \"medial\", \"condition\": \"MEDIAL TIBIAL STRESS SYNDROME/POSTERIOR COMPARTMENT SYNDROME (SHIN SPLINTS)\", \"condition_aliases\": [\"정강이 부위 통증\", \"정강이 피로 골절\", \"후방 구획 증후군\", \"신플린트\", \"경골 내측 피로 증후군\"], \"tape_type\": [], \"stretch_pct_range\": [0, 0], \"contraindication\": \"N/A\", \"test\": \"N/A\"}",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.2170771150839729,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "question": "키네시오 테이핑이 무릎 아픈 데 도움이 될까?",
+      "answer": "{\"error\": \"JSON Parsing Failed\", \"raw\": \"[\\n  {\\n    \\\"id\\\": \\\"book1_gibbons_KT_OVERVIEW_001\\\",\\n    \\\"source\\\": \\\"book1_gibbons\\\",\\n    \\\"body_part\\\": \\\"overview\\\",\\n    \\\"technique_code\\\": \\\"KT_OVERVIEW_001\\\",\\n    \\\"region\\\": \\\"medial\\\",\\n    \\\"condition\\\": \\\"\\\",\\n    \\\"condition_aliases\\\": [],\\n    \\\"tape_type\\\": [\\\"unknown\\\"],\\n    \\\"stretch_pct_range\\\": [25, 75],\\n    \\\"contraindication\\\": \\\"N/A\\\",\\n    \\\"test\\\": \\\"N/A\\\"\\n  },\\n  {\\n    \\\"id\\\": \\\"book2_kim_KT_TAPING\\\",\\n    \\\"source\\\": \\\"book2_kim\\\",\\n    \\\"body_part\\\": \\\"taping\\\",\\n    \\\"technique_code\\\": \\\"KT_TAPING\\\",\\n    \\\"region\\\": \\\"medial\\\",\\n    \\\"condition\\\": \\\"\\\",\\n    \\\"condition_aliases\\\": [],\\n    \\\"tape_type\\\": [\\\"unknown\\\"],\\n    \\\"stretch_pct_range\\\": [0, 0],\\n    \\\"contraindication\\\": \\\"N/A\\\",\\n    \\\"test\\\": \\\"N/A\\\"\\n  }\\n]\"}",
+      "faithfulness": 0.09090909090909091,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.9999999999833333,
+      "context_recall": 0.0
+    },
+    {
+      "question": "그림 3.13이 뭘 보여줘?",
+      "answer": "{\"error\": \"JSON Parsing Failed\", \"raw\": \"[\\n  {\\n    \\\"id\\\": \\\"KT_OVERVIEW_001\\\",\\n    \\\"source\\\": \\\"book1_gibbons\\\",\\n    \\\"body_part\\\": \\\"overview\\\",\\n    \\\"technique_code\\\": \\\"KT_OVERVIEW_001\\\",\\n    \\\"region\\\": \\\"medial\\\",\\n    \\\"condition\\\": \\\"\\\",\\n    \\\"condition_aliases\\\": [],\\n    \\\"tape_type\\\": [],\\n    \\\"stretch_pct_range\\\": [0, 0],\\n    \\\"contraindication\\\": \\\"N/A\\\",\\n    \\\"test\\\": \\\"N/A\\\"\\n  },\\n  {\\n    \\\"id\\\": \\\"KT_OVERVIEW\\\",\\n    \\\"source\\\": \\\"book1_gibbons\\\",\\n    \\\"body_part\\\": \\\"overview\\\",\\n    \\\"technique_code\\\": \\\"KT_OVERVIEW\\\",\\n    \\\"region\\\": \\\"medial\\\",\\n    \\\"condition\\\": \\\"\\\",\\n    \\\"condition_aliases\\\": [],\\n    \\\"tape_type\\\": [],\\n    \\\"stretch_pct_range\\\": [0, 0],\\n    \\\"contraindication\\\": \\\"N/A\\\",\\n    \\\"test\\\": \\\"N/A\\\"\\n  },\\n  {\\n    \\\"id\\\": \\\"KT_EDEMA_001\\\",\\n    \\\"source\\\": \\\"book1_gibbons\\\",\\n    \\\"body_part\\\": \\\"edema\\\",\\n    \\\"technique_code\\\": \\\"KT_EDEMA_001\\\",\\n    \\\"region\\\": \\\"lateral\\\",\\n    \\\"condition\\\": \\\"\\\",\\n    \\\"condition_aliases\\\": [],\\n    \\\"tape_type\\\": [],\\n    \\\"stretch_pct_range\\\": [0, 0],\\n    \\\"contraindication\\\": \\\"N/A\\\",\\n    \\\"test\\\": \\\"N/A\\\"\\n  }\\n]\"}",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "question": "무릎 아플 때 테이핑 어떻게 해?",
+      "answer": "{\"id\": \"KT_KNEE_001\", \"source\": \"book1_gibbons\", \"body_part\": \"무릎\", \"technique_code\": \"KT_KNEE_001\", \"region\": \"외측\", \"condition\": \"슬개대퇴 통증 증후군\", \"condition_aliases\": [\"PFPS\", \"무릎 통증\", \"Patellofemoral Pain Syndrome\"], \"tape_type\": [\"Y-strip\"], \"stretch_pct_range\": [0, 0], \"contraindication\": \"N/A\", \"test\": \"Step 1: 무릎을 90도 굽힌 상태로 앉은 자세(롱 시팅)에서, Y-스트립 테이프를 슬개골(무릎뼈) 상부에서 시작하여 슬개골의 내측과 외측을 따라 붙이고, 테이프 끝을 경골 결절(정강이뼈 융기)까지 교차하여 마무리합니다. 텐션은 0%로 적용합니다.\\nStep 2: 두 번째 Y-스트립을 경골 결절에서 시작하여, 테이프를 슬개골의 내측과 외측을 따라 첫 번째 Y-스트립과 겹치도록 붙이고, 대퇴사두근 힘줄 근처에서 마무리합니다. 이때도 텐션은 거의 없거나 0%로 적용합니다.\\nStep 3: 테이프의 접착력을 높이기 위해 손으로 문질러 열을 가해줍니다.\\nStep 4: 다리를 침대 위로 다시 내려놓고, 테이프에 '주름(wrinkling)'이 생기는지 관찰합니다.\"}",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.25542068378127825,
+      "context_precision": 0.99999999998,
+      "context_recall": 0.5
+    },
+    {
+      "question": "무릎 안쪽이 아픈데, 어떡하지?",
+      "answer": "{\"id\": \"KT_KNEE_001\", \"source\": \"book1_gibbons\", \"body_part\": \"무릎\", \"technique_code\": \"KT_KNEE_001\", \"region\": \"내측\", \"condition\": \"내측 무릎 통증 (내측 측부 인대 손상/내측 반월상연골 손상)\", \"condition_aliases\": [\"내측 측부 인대 염좌\", \"내측 반월상연골 손상\", \"MCL sprain\", \"medial meniscus injury\"], \"tape_type\": [\"I-strip\", \"Small-I-strip\", \"X-strip\"], \"stretch_pct_range\": [0, 100], \"contraindication\": \"피부에 상처, 감염, 알레르기 반응, 심한 부종, 혈액순환 장애가 있는 경우 테이핑을 피해야 합니다.\", \"test\": \"Step 1. 무릎을 90도 굽힌 상태에서, I-스트립을 정강이뼈(경골) 아래쪽 부착부에서 시작하여 허벅지(대퇴골) 위쪽 부착부까지 무릎 내측을 가로질러 붙입니다. 이때 테이프는 거의 늘이지 않고 부착합니다.\\nStep 2. 작은 I-스트립 하나를 사용하여 통증 부위에 가로질러 붙입니다. 이때 테이프는 75~100%의 텐션(늘임)으로 적용합니다.\\nStep 3. 또 다른 작은 I-스트립을 사용하여 앞서 붙인 작은 I-스트립과 교차하도록, 즉 X자 형태가 되도록 내측 측부 인대(MCL) 부위에 붙입니다. 이때도 75~100%의 텐션을 사용합니다.\\nStep 4. 테이프의 접착력을 높이기 위해 손으로 문질러 열을 가해줍니다.\"}",
+      "faithfulness": 0.7142857142857143,
+      "answer_relevancy": 0.24287468493989672,
+      "context_precision": 0.9999999999833333,
+      "context_recall": 1.0
+    },
+    {
+      "question": "축구하고 나서 무릎 안쪽이 왜 아프지?",
+      "answer": "{\"id\": \"KT_KNEE_001\", \"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"technique_code\": \"KT_KNEE_001\", \"region\": \"lateral\", \"condition\": \"내측 측부 인대 손상 또는 내측 반월상연골 손상\", \"condition_aliases\": [\"MCL 염좌\", \"내측 반월상연골 파열\"], \"tape_type\": [], \"stretch_pct_range\": [0, 0], \"contraindication\": \"N/A\", \"test\": \"N/A\"}",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.2604656387606691,
+      "context_precision": 0.99999999998,
+      "context_recall": 1.0
+    }
+  ]
+}

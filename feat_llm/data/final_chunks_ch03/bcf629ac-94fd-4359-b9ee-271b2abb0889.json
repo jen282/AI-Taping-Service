@@ -1,0 +1,42 @@
+{
+  "chunk": "## Full Knee Taping: PFPS / Patellar Tendinopathy / Osgood-Schlatter’s Disease / Bursitis\n\nAny athlete who presents with pain inferior to the patella may also have pain in other soft tissues, such as the soft-tissue structure known as the patellar tendon. However, the pain could be due to other associated structures that sit on top of the tibial plateau, e.g., fat pad, infrapatellar bursa, and even the meniscus. If, for example, a basketball player presents with pain to this area then it can be assumed that they have a condition called “jumper’s knee,” which is simply a tendinopathy of the patellar tendon. If, however, a 14-year-old footballer comes to the clinic with pain on the insertion of the patellar tendon at the attachment to the tibial tuberosity, then this is more than likely Osgood-Schlatter’s disease (Fig. 3.4).\n\nThis following technique is known as “full knee taping” as it has the ability to give a bit more stability without restricting the movement. It is an exceptional technique that can be quickly incorporated into your treatment program to offload the pain localized at the inferior aspect of the patella, as well as controlling the position of the patellofemoral joint.\n\n> **Figure 3.4**: General knee pain/PFPS. Patellar tendinopathy/bursitis. Patellofemoral pain syndrome (PFPS). Osgood-Schlatter’s disease.",
+  "tape_type": "unknown",
+  "condition": "PFPS",
+  "technique_code": "KT_KNEE_FULL",
+  "metadata": "{\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/\", \"condition\": \"\", \"tape_type\": \"unknown\", \"min_stretch\": \"0\", \"max_stretch\": \"0\", \"region\": \"medial\", \"technique_code\": \"KT_KNEE\", \"_node_content\": \"{\\\"id_\\\": \\\"bcf629ac-94fd-4359-b9ee-271b2abb0889\\\", \\\"embedding\\\": null, \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/\\\", \\\"condition\\\": \\\"\\\", \\\"tape_type\\\": \\\"unknown\\\", \\\"min_stretch\\\": \\\"0\\\", \\\"max_stretch\\\": \\\"0\\\", \\\"region\\\": \\\"medial\\\", \\\"technique_code\\\": \\\"KT_KNEE\\\"}, \\\"excluded_embed_metadata_keys\\\": [], \\\"excluded_llm_metadata_keys\\\": [], \\\"relationships\\\": {\\\"1\\\": {\\\"node_id\\\": \\\"book1_gibbons_ch03\\\", \\\"node_type\\\": \\\"4\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\"}, \\\"hash\\\": \\\"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}, \\\"2\\\": {\\\"node_id\\\": \\\"b062fc2e-f9b1-414e-b928-cffd8a708565\\\", \\\"node_type\\\": \\\"1\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/General Knee Pain / Patellofemoral Pain Syndrome/\\\"}, \\\"hash\\\": \\\"3df1c0d10891d2a82b591556e12f8d1af9df040be774b8ccfaea3349df20d6be\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}, \\\"3\\\": {\\\"node_id\\\": \\\"89c0ff7f-5e1f-4ed6-8e6e-1f8e8936122e\\\", \\\"node_type\\\": \\\"1\\\", \\\"metadata\\\": {\\\"header_path\\\": \\\"/Full Knee Taping: PFPS / Patellar Tendinopathy / Osgood-Schlatter\\u2019s Disease / Bursitis/\\\"}, \\\"hash\\\": \\\"1a8921af8848b654411782622e0a91293197de6db522caa624ae7d6837ebcded\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}}, \\\"metadata_template\\\": \\\"{key}: {value}\\\", \\\"metadata_separator\\\": \\\"\\\\n\\\", \\\"text\\\": \\\"\\\", \\\"mimetype\\\": \\\"text/plain\\\", \\\"start_char_idx\\\": 2824, \\\"end_char_idx\\\": 4166, \\\"text_template\\\": \\\"{metadata_str}\\\\n\\\\n{content}\\\", \\\"class_name\\\": \\\"TextNode\\\"}\", \"_node_type\": \"TextNode\", \"document_id\": \"book1_gibbons_ch03\", \"doc_id\": \"book1_gibbons_ch03\", \"ref_doc_id\": \"book1_gibbons_ch03\"}",
+  "region": "medial",
+  "max_stretch": "0",
+  "min_stretch": "0",
+  "pain_area": [
+    "inferior",
+    "anterior"
+  ],
+  "parent_id": "book1_gibbons_ch03",
+  "chunk_id": "bcf629ac-94fd-4359-b9ee-271b2abb0889",
+  "source": "book1_gibbons",
+  "body_part": "knee",
+  "body_region": "anterior",
+  "@search.score": 1.0,
+  "@search.reranker_score": null,
+  "@search.highlights": null,
+  "@search.captions": null,
+  "chapter": "ch03",
+  "header_path": "/",
+  "_metadata_full": {
+    "source": "book1_gibbons",
+    "body_part": "knee",
+    "chapter": "ch03",
+    "header_path": "/",
+    "condition": "",
+    "tape_type": "unknown",
+    "min_stretch": "0",
+    "max_stretch": "0",
+    "region": "medial",
+    "technique_code": "KT_KNEE",
+    "_node_content": "{\"id_\": \"bcf629ac-94fd-4359-b9ee-271b2abb0889\", \"embedding\": null, \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/\", \"condition\": \"\", \"tape_type\": \"unknown\", \"min_stretch\": \"0\", \"max_stretch\": \"0\", \"region\": \"medial\", \"technique_code\": \"KT_KNEE\"}, \"excluded_embed_metadata_keys\": [], \"excluded_llm_metadata_keys\": [], \"relationships\": {\"1\": {\"node_id\": \"book1_gibbons_ch03\", \"node_type\": \"4\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\"}, \"hash\": \"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\", \"class_name\": \"RelatedNodeInfo\"}, \"2\": {\"node_id\": \"b062fc2e-f9b1-414e-b928-cffd8a708565\", \"node_type\": \"1\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/General Knee Pain / Patellofemoral Pain Syndrome/\"}, \"hash\": \"3df1c0d10891d2a82b591556e12f8d1af9df040be774b8ccfaea3349df20d6be\", \"class_name\": \"RelatedNodeInfo\"}, \"3\": {\"node_id\": \"89c0ff7f-5e1f-4ed6-8e6e-1f8e8936122e\", \"node_type\": \"1\", \"metadata\": {\"header_path\": \"/Full Knee Taping: PFPS / Patellar Tendinopathy / Osgood-Schlatter’s Disease / Bursitis/\"}, \"hash\": \"1a8921af8848b654411782622e0a91293197de6db522caa624ae7d6837ebcded\", \"class_name\": \"RelatedNodeInfo\"}}, \"metadata_template\": \"{key}: {value}\", \"metadata_separator\": \"\\n\", \"text\": \"\", \"mimetype\": \"text/plain\", \"start_char_idx\": 2824, \"end_char_idx\": 4166, \"text_template\": \"{metadata_str}\\n\\n{content}\", \"class_name\": \"TextNode\"}",
+    "_node_type": "TextNode",
+    "document_id": "book1_gibbons_ch03",
+    "doc_id": "book1_gibbons_ch03",
+    "ref_doc_id": "book1_gibbons_ch03"
+  }
+}

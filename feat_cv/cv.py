@@ -35,12 +35,6 @@ PREFILTER_K = 30
 APP_TMP_DIR = Path("service_outputs")
 APP_TMP_DIR.mkdir(parents=True, exist_ok=True)
 
-GUIDE_VIDEO_MAP = {
-    "Y-strip": "/static/guides/y_strip.mp4",
-    "I-strip": "/static/guides/i_strip.mp4",
-    "X-strip": "/static/guides/x_strip.mp4",
-    "Big-Daddy": "/static/guides/big_daddy.mp4",
-}
 
 MP_IDX = {
     "nose": 0,
@@ -80,6 +74,7 @@ def normalize_tape_type(tape_type: Optional[str]) -> Optional[str]:
         "y-strip": "Y-strip",
         "i-strip": "I-strip",
         "x-strip": "X-strip",
+        "v-strip": "V-strip",
         "big-daddy": "Big-Daddy",
         "bigdaddy": "Big-Daddy",
     }
@@ -148,16 +143,72 @@ def extract_tape_type_from_rag_result(
     return normalize_tape_type(selected_option.get("tape_type"))
 
 
-def get_guide_video_url(
-    tape_type: Optional[str],
-    guide_video_map: Optional[Dict[str, str]] = None,
-) -> Optional[str]:
-    if tape_type is None:
-        return None
+def load_taping_registry(registry_path: str) -> List[Dict[str, Any]]:
+    path = Path(registry_path)
+    if not path.exists():
+        raise FileNotFoundError(f"Taping registry 파일을 찾을 수 없습니다: {registry_path}")
 
-    normalized = normalize_tape_type(tape_type)
-    mapping = guide_video_map or GUIDE_VIDEO_MAP
-    return mapping.get(normalized)
+    with path.open("r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    if not isinstance(data, list):
+        raise ValueError("Taping registry JSON은 list 형태여야 합니다.")
+
+    return data
+
+
+def normalize_text(value: Optional[str]) -> Optional[str]:
+    if value is None:
+        return None
+    return str(value).strip().lower()
+
+
+def get_body_model_key_from_path(body_obj_path: str) -> str:
+    """
+    body obj 파일명에서 registry asset_id prefix로 사용할 body model key를 추출한다.
+
+    예:
+      body_models_final/3148M.obj      -> 3148M
+      body_models_final/3148M_BD_B.obj -> 3148M
+    """
+    stem = Path(body_obj_path).stem.strip()
+    if "_" in stem:
+        return stem.split("_")[0]
+    return stem
+
+
+def build_asset_id(body_obj_path: str, technique_code: str) -> str:
+    body_model_key = get_body_model_key_from_path(body_obj_path)
+    return f"{body_model_key}_{technique_code}"
+
+
+def find_taping_asset_by_asset_id(
+    registry: List[Dict[str, Any]],
+    asset_id: str,
+) -> Dict[str, Any]:
+    target = normalize_text(asset_id)
+
+    for row in registry:
+        row_asset_id = normalize_text(row.get("asset_id"))
+        is_active = bool(row.get("active", True))
+        if is_active and row_asset_id == target:
+            result = dict(row)
+            result["match_level"] = "asset_id_exact"
+            return result
+
+    raise LookupError(f"asset_id로 일치하는 taping registry 항목을 찾지 못했습니다: {asset_id}")
+
+
+def find_taping_asset_for_body(
+    registry_path: str,
+    body_obj_path: str,
+    technique_code: str,
+) -> Dict[str, Any]:
+    registry = load_taping_registry(registry_path)
+    asset_id = build_asset_id(body_obj_path, technique_code)
+    result = find_taping_asset_by_asset_id(registry, asset_id)
+    result["resolved_asset_id"] = asset_id
+    return result
 
 
 def detect_pose_from_photo(photo_path: str, model_path: str) -> Tuple[np.ndarray, Dict[str, List[float]]]:
@@ -828,20 +879,41 @@ def render_body_with_tape_glb(body_obj_path: str, tape_mesh_path: str, output_di
     return merge_body_and_mesh_to_glb(body_obj_path, tape_mesh_path, output_glb_path)
 
 
+
 def run_body_search(
-    image_path: str,
-    height_cm: float,
-    weight_kg: float,
-    sex: str,
+    image_path: Optional[str],
+    height_cm: Optional[float],
+    weight_kg: Optional[float],
+    sex: Optional[str],
     output_dir: Optional[str] = None,
     top_k: int = TOP_K,
     prefilter_k: int = PREFILTER_K,
     rag_result: Optional[Dict[str, Any]] = None,
     tape_type: Optional[str] = None,
     selected_option_rank: int = 1,
-    guide_video_map: Optional[Dict[str, str]] = None,
+    registry_path: Optional[str] = None,
+    privacy_opt_out: bool = False,
+    default_body_obj_path: Optional[str] = None,
 ) -> Dict[str, Any]:
-    
+    """
+    개인정보 입력이 없는 경우:
+    - MediaPipe / body search 생략
+    - default_body_obj_path 사용
+    - RAG technique_code + body model name으로 asset_id 생성
+    - registry에서 tape mesh 찾기
+    - body 경로 / tape mesh 경로 / guide video 경로만 반환
+
+    개인정보 입력이 있는 경우:
+    - 기존 body search 알고리즘 수행
+    - best body model 선택
+    - RAG technique_code + best body model name으로 asset_id 생성
+    - registry에서 tape mesh 찾기
+    - body 경로 / tape mesh 경로 / guide video 경로만 반환
+
+    주의:
+    - 이 함수는 body+tape를 합성한 새 모델을 만들지 않는다.
+    - 프론트/뷰어가 반환된 경로의 body와 tape mesh를 그대로 표시하면 된다.
+    """
     if output_dir is None:
         request_id = uuid.uuid4().hex[:12]
         output_dir = str(APP_TMP_DIR / request_id)
@@ -850,36 +922,97 @@ def run_body_search(
 
     ensure_dir(output_dir)
 
-    user_features = extract_user_features(
-        image_path=image_path,
-        height_cm=height_cm,
-        weight_kg=weight_kg,
-        sex=sex,
-        output_dir=output_dir,
-    )
-
-    ranked = rank_body_candidates(
-        user_ratio_features=user_features["ratio_features"],
-        user_width_features=user_features["width_features"],
-        user_height_cm=height_cm,
-        user_weight_kg=weight_kg,
-        user_sex=sex,
-        top_k=top_k,
-        prefilter_k=prefilter_k,
-    )
-
-    best_match = ranked["best_match"]
-    body_glb_path = render_body_glb(
-        body_obj_path=best_match["body_obj_path"],
-        output_dir=output_dir,
-        file_name="result_body.glb",
-    )
-
     selected_rag_option = get_selected_rag_option(rag_result, selected_option_rank)
     resolved_tape_type = normalize_tape_type(
         tape_type if tape_type is not None else extract_tape_type_from_rag_result(rag_result, selected_option_rank)
     )
-    guide_video_url = get_guide_video_url(resolved_tape_type, guide_video_map)
+
+    selected_tape_asset: Optional[Dict[str, Any]] = None
+    body_obj_path: Optional[str] = None
+    best_match_payload: Dict[str, Any]
+    user_features_payload: Optional[Dict[str, Any]] = None
+    top_matches_payload: List[Dict[str, Any]] = []
+    converted_image_path: Optional[str] = None
+    mask_path: Optional[str] = None
+    debug_image_path: Optional[str] = None
+
+    if privacy_opt_out:
+        if not default_body_obj_path:
+            raise ValueError("privacy_opt_out=True 인 경우 default_body_obj_path가 필요합니다.")
+        body_obj_path = default_body_obj_path
+
+        if selected_rag_option and registry_path:
+            technique_code = selected_rag_option.get("technique_code")
+            if not technique_code:
+                raise ValueError("RAG option에 technique_code가 없습니다.")
+            selected_tape_asset = find_taping_asset_for_body(
+                registry_path=registry_path,
+                body_obj_path=body_obj_path,
+                technique_code=technique_code,
+            )
+
+        best_match_payload = {
+            "annotation_id": None,
+            "model_id": get_body_model_key_from_path(body_obj_path),
+            "body_obj_path": body_obj_path,
+            "json_path": None,
+            "shape_score": None,
+            "final_score": None,
+        }
+
+    else:
+        if image_path is None or height_cm is None or weight_kg is None or sex is None:
+            raise ValueError("개인정보 입력 사용 시 image_path, height_cm, weight_kg, sex가 모두 필요합니다.")
+
+        user_features = extract_user_features(
+            image_path=image_path,
+            height_cm=height_cm,
+            weight_kg=weight_kg,
+            sex=sex,
+            output_dir=output_dir,
+        )
+
+        ranked = rank_body_candidates(
+            user_ratio_features=user_features["ratio_features"],
+            user_width_features=user_features["width_features"],
+            user_height_cm=height_cm,
+            user_weight_kg=weight_kg,
+            user_sex=sex,
+            top_k=top_k,
+            prefilter_k=prefilter_k,
+        )
+
+        best_match = ranked["best_match"]
+        body_obj_path = best_match["body_obj_path"]
+
+        if selected_rag_option and registry_path:
+            technique_code = selected_rag_option.get("technique_code")
+            if not technique_code:
+                raise ValueError("RAG option에 technique_code가 없습니다.")
+            selected_tape_asset = find_taping_asset_for_body(
+                registry_path=registry_path,
+                body_obj_path=body_obj_path,
+                technique_code=technique_code,
+            )
+
+        user_features_payload = {
+            "raw_features": user_features["raw_features"],
+            "ratio_features": user_features["ratio_features"],
+            "width_features": user_features["width_features"],
+        }
+        top_matches_payload = ranked["top_matches"]
+        converted_image_path = user_features["paths"]["converted_image_path"]
+        mask_path = user_features["paths"]["mask_path"]
+        debug_image_path = user_features["paths"]["debug_image_path"]
+
+        best_match_payload = {
+            "annotation_id": best_match.get("annotation_id"),
+            "model_id": best_match.get("model_id"),
+            "body_obj_path": best_match.get("body_obj_path"),
+            "json_path": best_match.get("json_path"),
+            "shape_score": best_match.get("shape_score"),
+            "final_score": best_match.get("final_score"),
+        }
 
     report_path = str(Path(output_dir) / "body_search_report.json")
     result = {
@@ -893,32 +1026,27 @@ def run_body_search(
             "top_k": top_k,
             "prefilter_k": prefilter_k,
             "selected_option_rank": selected_option_rank,
+            "privacy_opt_out": privacy_opt_out,
         },
         "selected_rag_option": selected_rag_option,
         "guide": {
             "tape_type": resolved_tape_type,
-            "guide_video_url": guide_video_url,
+            "guide_video_url": selected_tape_asset.get("guide_video_url") if selected_tape_asset else None,
         },
-        "user_features": {
-            "raw_features": user_features["raw_features"],
-            "ratio_features": user_features["ratio_features"],
-            "width_features": user_features["width_features"],
+        "selected_tape_asset": selected_tape_asset,
+        "user_features": user_features_payload,
+        "best_match": best_match_payload,
+        "top_matches": top_matches_payload,
+        "display_assets": {
+            "body_model_path": body_obj_path,
+            "tape_mesh_path": selected_tape_asset.get("mesh_file") if selected_tape_asset else None,
+            "guide_video_url": selected_tape_asset.get("guide_video_url") if selected_tape_asset else None,
         },
-        "best_match": {
-            "annotation_id": best_match.get("annotation_id"),
-            "model_id": best_match.get("model_id"),
-            "body_obj_path": best_match.get("body_obj_path"),
-            "json_path": best_match.get("json_path"),
-            "shape_score": best_match.get("shape_score"),
-            "final_score": best_match.get("final_score"),
-        },
-        "top_matches": ranked["top_matches"],
         "artifacts": {
             "output_dir": output_dir,
-            "converted_image_path": user_features["paths"]["converted_image_path"],
-            "mask_path": user_features["paths"]["mask_path"],
-            "debug_image_path": user_features["paths"]["debug_image_path"],
-            "body_glb_path": body_glb_path,
+            "converted_image_path": converted_image_path,
+            "mask_path": mask_path,
+            "debug_image_path": debug_image_path,
             "report_path": report_path,
         },
     }
@@ -930,6 +1058,7 @@ def run_body_search(
 
 
 if __name__ == "__main__":
+
     sample_image = "user_full_body.jpg"
     sample_rag_result = {
         "options": [

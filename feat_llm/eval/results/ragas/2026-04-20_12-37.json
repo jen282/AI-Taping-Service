@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-04-20_12-37",
+  "scores": {
+    "faithfulness": 0.6300653594771242,
+    "answer_relevancy": 0.16754261226276282,
+    "context_precision": 0.6666666666544444,
+    "context_recall": 0.4166666666666667
+  },
+  "details": [
+    {
+      "question": "정강이뼈 융기(무릎 아래 튀어나온 부분)가 뭐야?",
+      "answer": "{\"id\": \"KT_LIMBS_001\", \"source\": \"book1_gibbons\", \"body_part\": \"limbs\", \"technique_code\": \"KT_LIMBS_001\", \"region\": \"medial\", \"condition\": \"N/A\", \"condition_aliases\": [], \"tape_type\": [], \"stretch_pct_range\": [0, 0], \"contraindication\": \"N/A\", \"test\": \"N/A\"}",
+      "faithfulness": 0.3333333333333333,
+      "answer_relevancy": 0.22798145081532573,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "question": "키네시오 테이핑이 무릎 아픈 데 도움이 될까?",
+      "answer": "{\"error\": \"JSON Parsing Failed\", \"raw\": \"[\\n  {\\n    \\\"id\\\": \\\"book1_gibbons_ch01_KT_OVERVIEW\\\",\\n    \\\"source\\\": \\\"book1_gibbons\\\",\\n    \\\"body_part\\\": \\\"overview\\\",\\n    \\\"technique_code\\\": \\\"KT_OVERVIEW\\\",\\n    \\\"region\\\": \\\"medial\\\",\\n    \\\"condition\\\": \\\"\\\",\\n    \\\"condition_aliases\\\": [],\\n    \\\"tape_type\\\": [\\\"unknown\\\"],\\n    \\\"stretch_pct_range\\\": [25, 75],\\n    \\\"contraindication\\\": \\\"N/A\\\",\\n    \\\"test\\\": \\\"키네시올로지 테이핑은 근육 기능 정상화, 혈관 및 림프 흐름 증가, 신경학적 억제를 통한 통증 감소, 비정상적인 근육 긴장 완화 및 근막/근육 기능에 영향을 주어 관절 정렬 교정, 그리고 피부 기계수용기 자극을 통한 고유수용감각 증가 등 다양한 이점이 있습니다. 테이프는 근육의 기시에서 정지로 50–75%의 강한 텐션으로 붙이면 근육 촉진 효과가, 근육의 정지에서 기시로 15–25%의 약한 텐션으로 붙이면 근육 억제 효과가 있을 수 있습니다. 테이핑은 근육, 인대, 힘줄 등 연부조직을 따라 적용되어 가벼우면서도 강한 외부 지지 역할을 하며, 부상 예방과 회복 촉진에 도움을 줄 수 있습니다. 무릎 통증(예: 러너스 니)에도 테이프가 무릎뼈를 들어 올려 지지하는 데 사용될 수 있습니다. 테이핑은 다양한 임상 환경에서 재활 과정에 효과적으로 활용될 수 있으며, 급성 또는 만성 손상, 예방적 목적 모두에 적용 가능합니다. 테이핑 적용 전에는 반드시 물리치료적 평가가 필요합니다.\\\"\\n  },\\n  {\\n    \\\"id\\\": \\\"book2_kim_intro_KT_TAPING\\\",\\n    \\\"source\\\": \\\"book2_kim\\\",\\n    \\\"body_part\\\": \\\"taping\\\",\\n    \\\"technique_code\\\": \\\"KT_TAPING\\\",\\n    \\\"region\\\": \\\"medial\\\",\\n    \\\"condition\\\": \\\"\\\",\\n    \\\"condition_aliases\\\": [],\\n    \\\"tape_type\\\": [\\\"unknown\\\"],\\n    \\\"stretch_pct_range\\\": [0, 0],\\n    \\\"contraindication\\\": \\\"N/A\\\",\\n    \\\"test\\\": \\\"키네시올로지 테이핑은 1979년 Dr. Kenzo Kase에 의해 개발되었으며, 수술 후 구조적 기능 및 정렬 회복, 운동선수의 부상 예방, 일반인의 통증 및 정렬 유지 등 다양한 목적으로 사용됩니다. 테이핑은 특히 재활 중인 사람들에게 유익하며, 수기치료 후에 적용하면 효과가 극대화된다는 임상 경험이 있습니다. 무릎 통증 완화에 대한 과학적 근거는 일부 연구에서 지지되지만, 연구 규모가 작아 과학계에서는 효과에 대한 의견이 분분합니다. 테이핑은 부상 예방이나 재활 목적으로 사용할 수 있으나, 심각한 부상 시에는 임시방편에 불과할 수 있습니다.\\\"\\n  }\\n]\"}",
+      "faithfulness": 0.8823529411764706,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.9999999999833333,
+      "context_recall": 0.0
+    },
+    {
+      "question": "그림 3.13이 뭘 보여줘?",
+      "answer": "{\"error\": \"JSON Parsing Failed\", \"raw\": \"[\\n  {\\n    \\\"id\\\": \\\"KT_OVERVIEW_001\\\",\\n    \\\"source\\\": \\\"book1_gibbons\\\",\\n    \\\"body_part\\\": \\\"overview\\\",\\n    \\\"technique_code\\\": \\\"KT_OVERVIEW_001\\\",\\n    \\\"region\\\": \\\"medial\\\",\\n    \\\"condition\\\": \\\"\\\",\\n    \\\"condition_aliases\\\": [],\\n    \\\"tape_type\\\": [],\\n    \\\"stretch_pct_range\\\": [0, 0],\\n    \\\"contraindication\\\": \\\"N/A\\\",\\n    \\\"test\\\": \\\"N/A\\\"\\n  },\\n  {\\n    \\\"id\\\": \\\"KT_EDEMA_001\\\",\\n    \\\"source\\\": \\\"book1_gibbons\\\",\\n    \\\"body_part\\\": \\\"edema\\\",\\n    \\\"technique_code\\\": \\\"KT_EDEMA_001\\\",\\n    \\\"region\\\": \\\"lateral\\\",\\n    \\\"condition\\\": \\\"\\\",\\n    \\\"condition_aliases\\\": [],\\n    \\\"tape_type\\\": [],\\n    \\\"stretch_pct_range\\\": [0, 0],\\n    \\\"contraindication\\\": \\\"N/A\\\",\\n    \\\"test\\\": \\\"N/A\\\"\\n  }\\n]\"}",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "question": "무릎 아플 때 테이핑 어떻게 해?",
+      "answer": "{\"id\": \"KT_KNEE_001\", \"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"technique_code\": \"KT_KNEE_001\", \"region\": \"lateral\", \"condition\": \"무릎 통증 (슬개대퇴 통증 증후군)\", \"condition_aliases\": [\"PFPS\", \"슬개대퇴 통증\", \"러너스 니\"], \"tape_type\": [\"Y-strip\"], \"stretch_pct_range\": [0, 0], \"contraindication\": \"N/A\", \"test\": \"Step 1: 무릎을 90도 굽힌 상태(롱시팅)에서 Y-스트립 테이프를 슬개골 상부에서 시작하여 슬개골의 내측과 외측을 따라 붙이고, 테이프 끝을 경골 결절 부위에서 마무리합니다. 텐션은 0%로 적용합니다.\\nStep 2: 두 번째 Y-스트립을 경골 결절에서 시작하여 슬개골의 내측과 외측을 따라 첫 번째 Y-스트립과 겹치도록 붙이고, 테이프 끝을 대퇴사두근 건 부위에서 마무리합니다. 이때도 텐션은 거의 없거나 아주 약하게 적용합니다.\\nStep 3: 테이프의 접착력을 높이기 위해 손으로 문질러 열을 가해줍니다.\\nStep 4: 다리를 침대에 다시 내려놓고 테이프에 주름이 생기는지 관찰합니다.\"}",
+      "faithfulness": 0.7647058823529411,
+      "answer_relevancy": 0.27101989433987034,
+      "context_precision": 0.99999999998,
+      "context_recall": 0.5
+    },
+    {
+      "question": "무릎 안쪽이 아픈데, 어떡하지?",
+      "answer": "{\"id\": \"KT_KNEE_001\", \"source\": \"book1_gibbons\", \"body_part\": \"무릎\", \"technique_code\": \"KT_KNEE_001\", \"region\": \"내측\", \"condition\": \"내측 무릎 통증 (내측 측부 인대 손상/내측 반월상연골 손상)\", \"condition_aliases\": [\"내측 측부 인대 염좌\", \"내측 반월상연골 손상\", \"MCL sprain\", \"medial meniscus injury\"], \"tape_type\": [\"I-strip\", \"Small-I-strip\", \"X-strip\"], \"stretch_pct_range\": [0, 100], \"contraindication\": \"피부에 상처, 감염, 알레르기 반응, 심한 부종, 혈액순환 장애가 있는 경우 테이핑을 피해야 합니다.\", \"test\": \"Step 1: 무릎을 90도 굽힌 상태에서, I-스트립을 정강이뼈(경골)의 아래쪽 부착부에서 시작하여 대퇴골의 위쪽 부착부까지 무릎 내측을 가로질러 붙입니다. 이때 테이프는 거의 또는 전혀 텐션을 주지 않습니다.\\nStep 2: 작은 I-스트립 하나를 사용하여 통증 부위에 가로질러 붙입니다. 이때 75–100%의 텐션을 줍니다.\\nStep 3: 또 다른 작은 I-스트립을 사용하여 앞서 붙인 I-스트립과 X자 형태가 되도록 MCL(내측 측부 인대) 위에 교차하여 붙입니다. 이때도 75–100%의 텐션을 줍니다.\\nStep 4: 테이프의 접착력을 높이기 위해 손으로 문질러 열을 가해줍니다.\"}",
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.24578868966071185,
+      "context_precision": 0.9999999999833333,
+      "context_recall": 1.0
+    },
+    {
+      "question": "축구하고 나서 무릎 안쪽이 왜 아프지?",
+      "answer": "{\"id\": \"KT_KNEE_001\", \"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"technique_code\": \"KT_KNEE_001\", \"region\": \"lateral\", \"condition\": \"내측 측부 인대 손상 및 내측 반월상연골 손상\", \"condition_aliases\": [\"MCL 염좌\", \"내측 반월상연골 파열\", \"내측 무릎 통증\"], \"tape_type\": [], \"stretch_pct_range\": [0, 0], \"contraindication\": \"N/A\", \"test\": \"N/A\"}",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.2604656387606691,
+      "context_precision": 0.99999999998,
+      "context_recall": 1.0
+    }
+  ]
+}

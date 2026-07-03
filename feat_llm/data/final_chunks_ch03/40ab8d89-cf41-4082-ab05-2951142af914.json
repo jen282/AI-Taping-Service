@@ -1,0 +1,41 @@
+{
+  "chunk": "### Taping Procedure: Medial Knee Pain\n\n| Step | Application Path | Position | Stretch % |\n|------|------------------|----------|-----------|\n| 1 | Apply an “I” strip across the medial aspect of the knee, starting from the distal inferior attachment onto the tibia and finishing on the proximal attachment to the femur | Knee at 90° flexion | Little to no stretch |\n| 2 | Using one small “I” strip, apply across the area of pain | Same as above | 75–100% |\n| 3 | Using another small “I” strip, place across the area of the other “I” strip to form an “X” shape across the MCL | Same as above | 75–100% |\n| 4 | Heat activate the glue | — | — |\n\n> **Figure 3.19**: First application to the MCL.\n\n> **Figure 3.20**: Second application of the tape using one small “I” strip across the area of pain.\n\n> **Figure 3.21**: Third application of the tape using a small “I” strip to form an “X” shape across the MCL.\n\nMedial knee pain (MCL sprain/medial meniscus)",
+  "tape_type": "X-strip, I-strip",
+  "condition": "Medial",
+  "technique_code": "KT_KNEE_MEDIAL",
+  "metadata": "{\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/Medial Knee Pain: Medial Collateral Ligament / Medial Meniscus/\", \"condition\": \"\", \"tape_type\": \"X-strip, Small-I-strip, I-strip\", \"min_stretch\": \"100\", \"max_stretch\": \"100\", \"region\": \"medial\", \"technique_code\": \"KT_KNEE\", \"_node_content\": \"{\\\"id_\\\": \\\"40ab8d89-cf41-4082-ab05-2951142af914\\\", \\\"embedding\\\": null, \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/Medial Knee Pain: Medial Collateral Ligament / Medial Meniscus/\\\", \\\"condition\\\": \\\"\\\", \\\"tape_type\\\": \\\"X-strip, Small-I-strip, I-strip\\\", \\\"min_stretch\\\": \\\"100\\\", \\\"max_stretch\\\": \\\"100\\\", \\\"region\\\": \\\"medial\\\", \\\"technique_code\\\": \\\"KT_KNEE\\\"}, \\\"excluded_embed_metadata_keys\\\": [], \\\"excluded_llm_metadata_keys\\\": [], \\\"relationships\\\": {\\\"1\\\": {\\\"node_id\\\": \\\"book1_gibbons_ch03\\\", \\\"node_type\\\": \\\"4\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\"}, \\\"hash\\\": \\\"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}, \\\"2\\\": {\\\"node_id\\\": \\\"1e0cb71e-c379-442d-bdad-92eb3d87b028\\\", \\\"node_type\\\": \\\"1\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/\\\"}, \\\"hash\\\": \\\"eab8602a87f62fc65b26762c302568bfab9041aa5b064953d166f9e2e9af580f\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}}, \\\"metadata_template\\\": \\\"{key}: {value}\\\", \\\"metadata_separator\\\": \\\"\\\\n\\\", \\\"text\\\": \\\"\\\", \\\"mimetype\\\": \\\"text/plain\\\", \\\"start_char_idx\\\": 11253, \\\"end_char_idx\\\": 12204, \\\"text_template\\\": \\\"{metadata_str}\\\\n\\\\n{content}\\\", \\\"class_name\\\": \\\"TextNode\\\"}\", \"_node_type\": \"TextNode\", \"document_id\": \"book1_gibbons_ch03\", \"doc_id\": \"book1_gibbons_ch03\", \"ref_doc_id\": \"book1_gibbons_ch03\"}",
+  "region": "medial",
+  "max_stretch": "100",
+  "min_stretch": "100",
+  "pain_area": [
+    "medial"
+  ],
+  "parent_id": "book1_gibbons_ch03",
+  "chunk_id": "40ab8d89-cf41-4082-ab05-2951142af914",
+  "source": "book1_gibbons",
+  "body_part": "knee",
+  "body_region": "medial",
+  "@search.score": 1.0,
+  "@search.reranker_score": null,
+  "@search.highlights": null,
+  "@search.captions": null,
+  "chapter": "ch03",
+  "header_path": "/Medial Knee Pain: Medial Collateral Ligament / Medial Meniscus/",
+  "_metadata_full": {
+    "source": "book1_gibbons",
+    "body_part": "knee",
+    "chapter": "ch03",
+    "header_path": "/Medial Knee Pain: Medial Collateral Ligament / Medial Meniscus/",
+    "condition": "",
+    "tape_type": "X-strip, Small-I-strip, I-strip",
+    "min_stretch": "100",
+    "max_stretch": "100",
+    "region": "medial",
+    "technique_code": "KT_KNEE",
+    "_node_content": "{\"id_\": \"40ab8d89-cf41-4082-ab05-2951142af914\", \"embedding\": null, \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/Medial Knee Pain: Medial Collateral Ligament / Medial Meniscus/\", \"condition\": \"\", \"tape_type\": \"X-strip, Small-I-strip, I-strip\", \"min_stretch\": \"100\", \"max_stretch\": \"100\", \"region\": \"medial\", \"technique_code\": \"KT_KNEE\"}, \"excluded_embed_metadata_keys\": [], \"excluded_llm_metadata_keys\": [], \"relationships\": {\"1\": {\"node_id\": \"book1_gibbons_ch03\", \"node_type\": \"4\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\"}, \"hash\": \"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\", \"class_name\": \"RelatedNodeInfo\"}, \"2\": {\"node_id\": \"1e0cb71e-c379-442d-bdad-92eb3d87b028\", \"node_type\": \"1\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/\"}, \"hash\": \"eab8602a87f62fc65b26762c302568bfab9041aa5b064953d166f9e2e9af580f\", \"class_name\": \"RelatedNodeInfo\"}}, \"metadata_template\": \"{key}: {value}\", \"metadata_separator\": \"\\n\", \"text\": \"\", \"mimetype\": \"text/plain\", \"start_char_idx\": 11253, \"end_char_idx\": 12204, \"text_template\": \"{metadata_str}\\n\\n{content}\", \"class_name\": \"TextNode\"}",
+    "_node_type": "TextNode",
+    "document_id": "book1_gibbons_ch03",
+    "doc_id": "book1_gibbons_ch03",
+    "ref_doc_id": "book1_gibbons_ch03"
+  }
+}

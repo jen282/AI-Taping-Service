@@ -1,0 +1,41 @@
+{
+  "chunk": "## Medial Knee Pain: Medial Collateral Ligament / Medial Meniscus\n\nMedial collateral ligament (MCL) sprains and tears, as well as injuries to the medial meniscus, are considered to be some of the most common injuries, especially in sports and activities like football and skiing. The MCL, in particular, restricts the motion of a movement called “valgus.” This means the knee is restricted from moving inwards, so any excessive force in this plane will often result in the ligament becoming stretched and subsequently torn (or sprained) as well as a potential tear to the medial meniscus (Fig. 3.18).\n\n> **Figure 3.18**: MCL sprain/medial meniscus tear.",
+  "tape_type": "unknown",
+  "condition": "Medial",
+  "technique_code": "KT_KNEE_MEDIAL",
+  "metadata": "{\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/\", \"condition\": \"\", \"tape_type\": \"unknown\", \"min_stretch\": \"0\", \"max_stretch\": \"0\", \"region\": \"lateral\", \"technique_code\": \"KT_KNEE\", \"_node_content\": \"{\\\"id_\\\": \\\"1e0cb71e-c379-442d-bdad-92eb3d87b028\\\", \\\"embedding\\\": null, \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/\\\", \\\"condition\\\": \\\"\\\", \\\"tape_type\\\": \\\"unknown\\\", \\\"min_stretch\\\": \\\"0\\\", \\\"max_stretch\\\": \\\"0\\\", \\\"region\\\": \\\"lateral\\\", \\\"technique_code\\\": \\\"KT_KNEE\\\"}, \\\"excluded_embed_metadata_keys\\\": [], \\\"excluded_llm_metadata_keys\\\": [], \\\"relationships\\\": {\\\"1\\\": {\\\"node_id\\\": \\\"book1_gibbons_ch03\\\", \\\"node_type\\\": \\\"4\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\"}, \\\"hash\\\": \\\"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}, \\\"2\\\": {\\\"node_id\\\": \\\"fc32754d-8488-405e-a20d-b9669c4a6805\\\", \\\"node_type\\\": \\\"1\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/Lateral Knee Pain: Iliotibial Band Friction Syndrome / Lateral Meniscus / Lateral Collateral Ligament (LCL)/\\\"}, \\\"hash\\\": \\\"f27156f7d365ee364b9c79193231cc93f29f483113825c3d518eceb589629af1\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}, \\\"3\\\": {\\\"node_id\\\": \\\"40ab8d89-cf41-4082-ab05-2951142af914\\\", \\\"node_type\\\": \\\"1\\\", \\\"metadata\\\": {\\\"header_path\\\": \\\"/Medial Knee Pain: Medial Collateral Ligament / Medial Meniscus/\\\"}, \\\"hash\\\": \\\"7df156a3d80cfd0a45eabde096a7146156f0378c5c38d7ed58361ffa4c4f907f\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}}, \\\"metadata_template\\\": \\\"{key}: {value}\\\", \\\"metadata_separator\\\": \\\"\\\\n\\\", \\\"text\\\": \\\"\\\", \\\"mimetype\\\": \\\"text/plain\\\", \\\"start_char_idx\\\": 10598, \\\"end_char_idx\\\": 11251, \\\"text_template\\\": \\\"{metadata_str}\\\\n\\\\n{content}\\\", \\\"class_name\\\": \\\"TextNode\\\"}\", \"_node_type\": \"TextNode\", \"document_id\": \"book1_gibbons_ch03\", \"doc_id\": \"book1_gibbons_ch03\", \"ref_doc_id\": \"book1_gibbons_ch03\"}",
+  "region": "medial",
+  "max_stretch": "0",
+  "min_stretch": "0",
+  "pain_area": [
+    "medial"
+  ],
+  "parent_id": "book1_gibbons_ch03",
+  "chunk_id": "1e0cb71e-c379-442d-bdad-92eb3d87b028",
+  "source": "book1_gibbons",
+  "body_part": "knee",
+  "body_region": "medial",
+  "@search.score": 1.0,
+  "@search.reranker_score": null,
+  "@search.highlights": null,
+  "@search.captions": null,
+  "chapter": "ch03",
+  "header_path": "/",
+  "_metadata_full": {
+    "source": "book1_gibbons",
+    "body_part": "knee",
+    "chapter": "ch03",
+    "header_path": "/",
+    "condition": "",
+    "tape_type": "unknown",
+    "min_stretch": "0",
+    "max_stretch": "0",
+    "region": "lateral",
+    "technique_code": "KT_KNEE",
+    "_node_content": "{\"id_\": \"1e0cb71e-c379-442d-bdad-92eb3d87b028\", \"embedding\": null, \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/\", \"condition\": \"\", \"tape_type\": \"unknown\", \"min_stretch\": \"0\", \"max_stretch\": \"0\", \"region\": \"lateral\", \"technique_code\": \"KT_KNEE\"}, \"excluded_embed_metadata_keys\": [], \"excluded_llm_metadata_keys\": [], \"relationships\": {\"1\": {\"node_id\": \"book1_gibbons_ch03\", \"node_type\": \"4\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\"}, \"hash\": \"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\", \"class_name\": \"RelatedNodeInfo\"}, \"2\": {\"node_id\": \"fc32754d-8488-405e-a20d-b9669c4a6805\", \"node_type\": \"1\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/Lateral Knee Pain: Iliotibial Band Friction Syndrome / Lateral Meniscus / Lateral Collateral Ligament (LCL)/\"}, \"hash\": \"f27156f7d365ee364b9c79193231cc93f29f483113825c3d518eceb589629af1\", \"class_name\": \"RelatedNodeInfo\"}, \"3\": {\"node_id\": \"40ab8d89-cf41-4082-ab05-2951142af914\", \"node_type\": \"1\", \"metadata\": {\"header_path\": \"/Medial Knee Pain: Medial Collateral Ligament / Medial Meniscus/\"}, \"hash\": \"7df156a3d80cfd0a45eabde096a7146156f0378c5c38d7ed58361ffa4c4f907f\", \"class_name\": \"RelatedNodeInfo\"}}, \"metadata_template\": \"{key}: {value}\", \"metadata_separator\": \"\\n\", \"text\": \"\", \"mimetype\": \"text/plain\", \"start_char_idx\": 10598, \"end_char_idx\": 11251, \"text_template\": \"{metadata_str}\\n\\n{content}\", \"class_name\": \"TextNode\"}",
+    "_node_type": "TextNode",
+    "document_id": "book1_gibbons_ch03",
+    "doc_id": "book1_gibbons_ch03",
+    "ref_doc_id": "book1_gibbons_ch03"
+  }
+}

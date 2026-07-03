@@ -1,0 +1,42 @@
+{
+  "chunk": "### Taping Procedure: Lateral Knee Pain\n\n| Step | Application Path | Position | Stretch % |\n|------|------------------|----------|-----------|\n| 1 | Apply an “I” strip from the Gerdy’s tubercle (insertion of IT band), cross the lateral femoral condyle, and finish along the length of the IT band | Side lying, knee flexed, hip flexed and adducted | Little to no stretch |\n| 2 | Using one small “I” strip, apply across the area of pain to the lateral femoral condyle | Same as above | 75–100% |\n| 3 | Using another small “I” strip, place across the area of the other “I” strip to form an “X” shape across the IT band on the lateral femoral condyle | Same as above | 75–100% |\n| 4 | Heat activate the glue | — | — |\n\n> **Figure 3.15**: First application starting from Gerdy’s tubercle and finishing along the IT band.\n\n> **Figure 3.16**: Second application of the tape using one small “I” strip across the area of pain.\n\n> **Figure 3.17**: Third application of the tape using a small “I” strip to form an “X” shape across the IT band on the lateral femoral condyle.\n\nRunner’s knee/iliotibial band friction syndrome\n\n---",
+  "tape_type": "X-strip, I-strip",
+  "condition": "Lateral",
+  "technique_code": "KT_KNEE_LATERAL",
+  "metadata": "{\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/Lateral Knee Pain: Iliotibial Band Friction Syndrome / Lateral Meniscus / Lateral Collateral Ligament (LCL)/\", \"condition\": \"\", \"tape_type\": \"X-strip, Small-I-strip, I-strip\", \"min_stretch\": \"100\", \"max_stretch\": \"100\", \"region\": \"lateral\", \"technique_code\": \"KT_KNEE\", \"_node_content\": \"{\\\"id_\\\": \\\"fc32754d-8488-405e-a20d-b9669c4a6805\\\", \\\"embedding\\\": null, \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/Lateral Knee Pain: Iliotibial Band Friction Syndrome / Lateral Meniscus / Lateral Collateral Ligament (LCL)/\\\", \\\"condition\\\": \\\"\\\", \\\"tape_type\\\": \\\"X-strip, Small-I-strip, I-strip\\\", \\\"min_stretch\\\": \\\"100\\\", \\\"max_stretch\\\": \\\"100\\\", \\\"region\\\": \\\"lateral\\\", \\\"technique_code\\\": \\\"KT_KNEE\\\"}, \\\"excluded_embed_metadata_keys\\\": [], \\\"excluded_llm_metadata_keys\\\": [], \\\"relationships\\\": {\\\"1\\\": {\\\"node_id\\\": \\\"book1_gibbons_ch03\\\", \\\"node_type\\\": \\\"4\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\"}, \\\"hash\\\": \\\"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}, \\\"2\\\": {\\\"node_id\\\": \\\"f0337a32-5ef1-41b1-ac41-4aa7b24f26b4\\\", \\\"node_type\\\": \\\"1\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/\\\"}, \\\"hash\\\": \\\"dba59ef05b71e7ca7bf60b675643e45b336ffe863c5438fb2295866ae8eb1986\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}, \\\"3\\\": {\\\"node_id\\\": \\\"1e0cb71e-c379-442d-bdad-92eb3d87b028\\\", \\\"node_type\\\": \\\"1\\\", \\\"metadata\\\": {\\\"header_path\\\": \\\"/\\\"}, \\\"hash\\\": \\\"b74f86a9d000f45b6e15904cb376891224c5eab16c514efcef298c6a6306d452\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}}, \\\"metadata_template\\\": \\\"{key}: {value}\\\", \\\"metadata_separator\\\": \\\"\\\\n\\\", \\\"text\\\": \\\"\\\", \\\"mimetype\\\": \\\"text/plain\\\", \\\"start_char_idx\\\": 9479, \\\"end_char_idx\\\": 10596, \\\"text_template\\\": \\\"{metadata_str}\\\\n\\\\n{content}\\\", \\\"class_name\\\": \\\"TextNode\\\"}\", \"_node_type\": \"TextNode\", \"document_id\": \"book1_gibbons_ch03\", \"doc_id\": \"book1_gibbons_ch03\", \"ref_doc_id\": \"book1_gibbons_ch03\"}",
+  "region": "lateral",
+  "max_stretch": "100",
+  "min_stretch": "100",
+  "pain_area": [
+    "lateral",
+    "anterior"
+  ],
+  "parent_id": "book1_gibbons_ch03",
+  "chunk_id": "fc32754d-8488-405e-a20d-b9669c4a6805",
+  "source": "book1_gibbons",
+  "body_part": "knee",
+  "body_region": "lateral",
+  "@search.score": 1.0,
+  "@search.reranker_score": null,
+  "@search.highlights": null,
+  "@search.captions": null,
+  "chapter": "ch03",
+  "header_path": "/Lateral Knee Pain: Iliotibial Band Friction Syndrome / Lateral Meniscus / Lateral Collateral Ligament (LCL)/",
+  "_metadata_full": {
+    "source": "book1_gibbons",
+    "body_part": "knee",
+    "chapter": "ch03",
+    "header_path": "/Lateral Knee Pain: Iliotibial Band Friction Syndrome / Lateral Meniscus / Lateral Collateral Ligament (LCL)/",
+    "condition": "",
+    "tape_type": "X-strip, Small-I-strip, I-strip",
+    "min_stretch": "100",
+    "max_stretch": "100",
+    "region": "lateral",
+    "technique_code": "KT_KNEE",
+    "_node_content": "{\"id_\": \"fc32754d-8488-405e-a20d-b9669c4a6805\", \"embedding\": null, \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/Lateral Knee Pain: Iliotibial Band Friction Syndrome / Lateral Meniscus / Lateral Collateral Ligament (LCL)/\", \"condition\": \"\", \"tape_type\": \"X-strip, Small-I-strip, I-strip\", \"min_stretch\": \"100\", \"max_stretch\": \"100\", \"region\": \"lateral\", \"technique_code\": \"KT_KNEE\"}, \"excluded_embed_metadata_keys\": [], \"excluded_llm_metadata_keys\": [], \"relationships\": {\"1\": {\"node_id\": \"book1_gibbons_ch03\", \"node_type\": \"4\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\"}, \"hash\": \"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\", \"class_name\": \"RelatedNodeInfo\"}, \"2\": {\"node_id\": \"f0337a32-5ef1-41b1-ac41-4aa7b24f26b4\", \"node_type\": \"1\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/\"}, \"hash\": \"dba59ef05b71e7ca7bf60b675643e45b336ffe863c5438fb2295866ae8eb1986\", \"class_name\": \"RelatedNodeInfo\"}, \"3\": {\"node_id\": \"1e0cb71e-c379-442d-bdad-92eb3d87b028\", \"node_type\": \"1\", \"metadata\": {\"header_path\": \"/\"}, \"hash\": \"b74f86a9d000f45b6e15904cb376891224c5eab16c514efcef298c6a6306d452\", \"class_name\": \"RelatedNodeInfo\"}}, \"metadata_template\": \"{key}: {value}\", \"metadata_separator\": \"\\n\", \"text\": \"\", \"mimetype\": \"text/plain\", \"start_char_idx\": 9479, \"end_char_idx\": 10596, \"text_template\": \"{metadata_str}\\n\\n{content}\", \"class_name\": \"TextNode\"}",
+    "_node_type": "TextNode",
+    "document_id": "book1_gibbons_ch03",
+    "doc_id": "book1_gibbons_ch03",
+    "ref_doc_id": "book1_gibbons_ch03"
+  }
+}

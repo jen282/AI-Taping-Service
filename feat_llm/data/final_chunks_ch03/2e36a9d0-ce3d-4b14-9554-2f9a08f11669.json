@@ -1,0 +1,41 @@
+{
+  "chunk": "### Taping Procedure: Knee Malalignment (Alternative Technique)\n\n| Step | Application Path | Position | Stretch % |\n|------|------------------|----------|-----------|\n| 1 | Apply the tape from the lateral aspect of the patella, near the lateral collateral ligament (LCL) | Long sitting, knee straight | — |\n| 2 | With the thumb, apply a medial glide to the lateral side of the patella, increase tension to the superior part of the tape to 50–75% and apply over the patella | Long sitting, knee straight | 50–75% (superior part) |\n| 3 | With the thumb, apply a medial glide to the lateral side of the patella, increase tension to the inferior part of the tape to 50–75% and apply over the patella | Long sitting, knee straight | 50–75% (inferior part) |\n| 4 | Heat activate the glue | — | — |\n\n> **Figure 3.10**: First application of the tape, from the lateral side of the knee.\n\n> **Figure 3.11**: Tension the superior part of the tape with medial glide from the thumb.\n\n> **Figure 3.12**: Apply tension to the inferior part of the tape with medial glide from the thumb.\n\nOnce you have applied the tape then the knee should look like Figure 3.13.\n\n> **Figure 3.13**: How it should look after the tape has been applied.\n\n---",
+  "tape_type": "Big-Daddy",
+  "condition": "Malalignment",
+  "technique_code": "KT_KNEE_MALALIGNMENT_ALTERNATIVE",
+  "metadata": "{\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/Knee Malalignment Taping Technique/\", \"condition\": \"\", \"tape_type\": \"unknown\", \"min_stretch\": \"75\", \"max_stretch\": \"75\", \"region\": \"lateral\", \"technique_code\": \"KT_KNEE\", \"_node_content\": \"{\\\"id_\\\": \\\"2e36a9d0-ce3d-4b14-9554-2f9a08f11669\\\", \\\"embedding\\\": null, \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/Knee Malalignment Taping Technique/\\\", \\\"condition\\\": \\\"\\\", \\\"tape_type\\\": \\\"unknown\\\", \\\"min_stretch\\\": \\\"75\\\", \\\"max_stretch\\\": \\\"75\\\", \\\"region\\\": \\\"lateral\\\", \\\"technique_code\\\": \\\"KT_KNEE\\\"}, \\\"excluded_embed_metadata_keys\\\": [], \\\"excluded_llm_metadata_keys\\\": [], \\\"relationships\\\": {\\\"1\\\": {\\\"node_id\\\": \\\"book1_gibbons_ch03\\\", \\\"node_type\\\": \\\"4\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\"}, \\\"hash\\\": \\\"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}, \\\"2\\\": {\\\"node_id\\\": \\\"09dbf695-69ff-447d-85dd-ed5c030861c4\\\", \\\"node_type\\\": \\\"1\\\", \\\"metadata\\\": {\\\"source\\\": \\\"book1_gibbons\\\", \\\"body_part\\\": \\\"knee\\\", \\\"chapter\\\": \\\"ch03\\\", \\\"header_path\\\": \\\"/Knee Malalignment Taping Technique/\\\"}, \\\"hash\\\": \\\"eae98e2d189da8388d52c51091ebfabbe701b8fdc6c3a563135655f921265f29\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}, \\\"3\\\": {\\\"node_id\\\": \\\"f0337a32-5ef1-41b1-ac41-4aa7b24f26b4\\\", \\\"node_type\\\": \\\"1\\\", \\\"metadata\\\": {\\\"header_path\\\": \\\"/\\\"}, \\\"hash\\\": \\\"df757da96ebbda0105314012cbf2dc270ebc5042c527cbfcdeddb8a4eb529471\\\", \\\"class_name\\\": \\\"RelatedNodeInfo\\\"}}, \\\"metadata_template\\\": \\\"{key}: {value}\\\", \\\"metadata_separator\\\": \\\"\\\\n\\\", \\\"text\\\": \\\"\\\", \\\"mimetype\\\": \\\"text/plain\\\", \\\"start_char_idx\\\": 6972, \\\"end_char_idx\\\": 8195, \\\"text_template\\\": \\\"{metadata_str}\\\\n\\\\n{content}\\\", \\\"class_name\\\": \\\"TextNode\\\"}\", \"_node_type\": \"TextNode\", \"document_id\": \"book1_gibbons_ch03\", \"doc_id\": \"book1_gibbons_ch03\", \"ref_doc_id\": \"book1_gibbons_ch03\"}",
+  "region": "lateral",
+  "max_stretch": "75",
+  "min_stretch": "75",
+  "pain_area": [
+    "anterior"
+  ],
+  "parent_id": "book1_gibbons_ch03",
+  "chunk_id": "2e36a9d0-ce3d-4b14-9554-2f9a08f11669",
+  "source": "book1_gibbons",
+  "body_part": "knee",
+  "body_region": "anterior",
+  "@search.score": 1.0,
+  "@search.reranker_score": null,
+  "@search.highlights": null,
+  "@search.captions": null,
+  "chapter": "ch03",
+  "header_path": "/Knee Malalignment Taping Technique/",
+  "_metadata_full": {
+    "source": "book1_gibbons",
+    "body_part": "knee",
+    "chapter": "ch03",
+    "header_path": "/Knee Malalignment Taping Technique/",
+    "condition": "",
+    "tape_type": "unknown",
+    "min_stretch": "75",
+    "max_stretch": "75",
+    "region": "lateral",
+    "technique_code": "KT_KNEE",
+    "_node_content": "{\"id_\": \"2e36a9d0-ce3d-4b14-9554-2f9a08f11669\", \"embedding\": null, \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/Knee Malalignment Taping Technique/\", \"condition\": \"\", \"tape_type\": \"unknown\", \"min_stretch\": \"75\", \"max_stretch\": \"75\", \"region\": \"lateral\", \"technique_code\": \"KT_KNEE\"}, \"excluded_embed_metadata_keys\": [], \"excluded_llm_metadata_keys\": [], \"relationships\": {\"1\": {\"node_id\": \"book1_gibbons_ch03\", \"node_type\": \"4\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\"}, \"hash\": \"ab0199897a5010adc2585a60f39a236dce629ce3b43badac12cc021f83e749dc\", \"class_name\": \"RelatedNodeInfo\"}, \"2\": {\"node_id\": \"09dbf695-69ff-447d-85dd-ed5c030861c4\", \"node_type\": \"1\", \"metadata\": {\"source\": \"book1_gibbons\", \"body_part\": \"knee\", \"chapter\": \"ch03\", \"header_path\": \"/Knee Malalignment Taping Technique/\"}, \"hash\": \"eae98e2d189da8388d52c51091ebfabbe701b8fdc6c3a563135655f921265f29\", \"class_name\": \"RelatedNodeInfo\"}, \"3\": {\"node_id\": \"f0337a32-5ef1-41b1-ac41-4aa7b24f26b4\", \"node_type\": \"1\", \"metadata\": {\"header_path\": \"/\"}, \"hash\": \"df757da96ebbda0105314012cbf2dc270ebc5042c527cbfcdeddb8a4eb529471\", \"class_name\": \"RelatedNodeInfo\"}}, \"metadata_template\": \"{key}: {value}\", \"metadata_separator\": \"\\n\", \"text\": \"\", \"mimetype\": \"text/plain\", \"start_char_idx\": 6972, \"end_char_idx\": 8195, \"text_template\": \"{metadata_str}\\n\\n{content}\", \"class_name\": \"TextNode\"}",
+    "_node_type": "TextNode",
+    "document_id": "book1_gibbons_ch03",
+    "doc_id": "book1_gibbons_ch03",
+    "ref_doc_id": "book1_gibbons_ch03"
+  }
+}
