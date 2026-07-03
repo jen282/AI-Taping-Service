@@ -54,9 +54,11 @@ TerryPiQ는 사용자의 통증 증상과 체형 사진을 분석해, 본인과 
 ![OpenAI](https://img.shields.io/badge/GPT--4.1-412991?style=flat&logo=openai&logoColor=white)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-FF6F00?style=flat)
+![RAGAS](https://img.shields.io/badge/RAGAS-FF6F00?style=flat)
 
 ### Azure Cloud
 
+![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure_App_Service-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 ![CosmosDB](https://img.shields.io/badge/Cosmos_DB-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 ![AI Search](https://img.shields.io/badge/Azure_AI_Search-0078D4?style=flat&logo=microsoftazure&logoColor=white)
