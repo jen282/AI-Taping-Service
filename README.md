@@ -74,43 +74,29 @@ TerryPiQ는 사용자의 통증 증상과 체형 사진을 분석해, 본인과 
 
 ![시스템 아키텍처](docs/시스템_아키텍처.png)
 
-```
-USER
- │
- ▼
-[React Frontend]
- │                          │
- │ JUDGMENT PATH            │ DELIVERY PATH
- ▼                          ▼
-[FastAPI Backend]       [Azure Blob Storage]
- ├── API 01 증상 분석        └── .glb / .mp4 직접 서빙 (CORS)
- ├── API 02 체형 매칭             (Netflix·YouTube 분리 구조)
- ├── API 03 테이핑 추천
- │    ├── GPT (Azure OpenAI)
- │    ├── Azure AI Search (RAG · Vector)
- │    └── Cosmos DB (NoSQL)
- └── Private Endpoint Subnet
-```
+---
+
+## AI 추천 파이프라인
+
+![RAG 파이프라인](docs/RAG_파이프라인.png)
 
 ### RAG 파이프라인
 
-```
-[INDEXING - 1회]
-Azure Blob (.txt) → GPT-4.1 enrich → MarkdownNode Parse
-    → AI Search (leaf + vector 검색 인덱스)
-    → Docstore (parent nodes · AutoMerge)
+**INDEXING (1회)**
 
-[RUNTIME - 실시간]
-사용자 한국어 질문
-    → EP1 Symptom Analyze (session_id 생성)
-    → EP2 Body Match (model_id 생성, 선택)
-    → EP3 RAG + LLM: 번역(ko→en) → AutoMerge 검색 → LLM 생성
-    → JSON + Video + 3D GLB 가이드 출력
-```
+- Azure Blob (.txt) → GPT-4.1 enrich → MarkdownNode Parse
+- AI Search에 leaf 노드 + vector 검색 인덱스 저장
+- Docstore에 parent 노드 저장 (AutoMerge 구조)
 
----
+**RUNTIME (실시간)**
 
-## CV 체형 매칭 알고리즘
+1. 사용자 한국어 질문 입력
+2. EP1 Symptom Analyze → session_id 생성
+3. EP2 Body Match → model_id 생성 및 선택
+4. EP3 RAG + LLM: 번역(ko→en) → AutoMerge 검색 → LLM 생성
+5. JSON + Video + 3D GLB 가이드 출력
+
+### CV 체형 매칭 알고리즘
 
 **STAGE 1 — 골격 + 굵기 추출**
 
